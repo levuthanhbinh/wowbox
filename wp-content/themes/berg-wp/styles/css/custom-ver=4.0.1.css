@@ -7751,7 +7751,7 @@ body.nav-bottom #main-navbar {
     font-size: 13px;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 1px
+    letter-spacing: 1px;
 }
 
 #main-navbar .main-nav > ul > li:hover .image-subnav li div {
@@ -7816,7 +7816,8 @@ body.nav-bottom #main-navbar {
     float: none;
     display: table;
     table-layout: fixed;
-    background: #111;
+    /*background: #111;*/
+    background: #95CA57;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     -moz-transition: opacity .3s 0s, visibility 0s .3s;
     -o-transition: opacity .3s 0s, visibility 0s .3s;
@@ -7846,7 +7847,7 @@ body.nav-bottom #main-navbar {
 
 #main-navbar .main-nav .subnav li a {
     color: #fff;
-    font-weight: 400
+    font-weight: bold;
 }
 
 #main-navbar .main-nav .subnav li a:before {
@@ -7902,7 +7903,8 @@ body.nav-bottom #main-navbar {
 }
 
 #main-navbar .main-nav .subnav.image-subnav li > a {
-    background: #111
+    /*background: #111*/
+    background: #95CA57;
 }
 
 #main-navbar .main-nav .subnav.image-subnav li div {
@@ -10436,7 +10438,8 @@ ul.picker__list {
 }
 
 .menu h2 {
-    background: #111;
+    /*background: #111;*/
+    background: #95CA57;
     margin: 0 -15px 30px;
     padding: 25px 15px;
     color: #fff;
@@ -15373,7 +15376,8 @@ body.no-intro .berg-overlay-background {
 }
 
 #footer {
-    background: #111;
+    /*background: #111;*/
+    background: #95CA57;
     padding: 30px 0;
     color: #cfcfcf;
     position: absolute;
@@ -15432,7 +15436,7 @@ body.no-intro .berg-overlay-background {
 
 #footer .v-card {
     font-size: 16px;
-    color: #cfcfcf;
+    color: #ffffff;
     text-align: center;
     margin-top: 30px
 }
