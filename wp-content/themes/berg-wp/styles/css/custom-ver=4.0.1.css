@@ -7511,7 +7511,8 @@ div.pp_overlay {
 }
 
 .home-page #main-navbar .main-nav .subnav {
-    background: rgba(17, 17, 17, .9)
+    /*background: rgba(17, 17, 17, .9)*/
+    background: #95CA57;
 }
 
 .home-page #main-navbar .main-nav .subnav.image-subnav {
