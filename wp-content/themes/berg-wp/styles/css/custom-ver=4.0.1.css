@@ -10489,6 +10489,18 @@ ul.picker__list {
     }
 }
 
+.menu-item-small {
+    float: left;
+    width: 50%
+}
+
+@media (min-width: 992px) {
+    .menu-item-small {
+        float: left;
+        width: 25%
+    }
+}
+
 .menu .menu-content .menu-item > a {
     width: 50%;
     display: block;
