@@ -2333,7 +2333,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .label-success {
-    background-color: #5cb85c
+    background-color: #95CA57
 }
 
 .label-success[href]:focus, .label-success[href]:hover {
