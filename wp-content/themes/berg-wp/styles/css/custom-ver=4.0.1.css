@@ -10482,7 +10482,7 @@ ul.picker__list {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     .menu .menu-content .menu-item {
         float: left;
         width: 33.33333333%
