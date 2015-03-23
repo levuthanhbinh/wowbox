@@ -2290,7 +2290,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .label {
     display: inline;
-    padding: .15em .6em .2em;
+    padding: .3em .6em .2em;
     font-size: 14px;
     font-weight: 700;
     line-height: 1;
@@ -5442,7 +5442,7 @@ h1 {
 h2 {
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 700
 }
 
