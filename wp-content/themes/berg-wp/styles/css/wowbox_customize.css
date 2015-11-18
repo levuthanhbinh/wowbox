@@ -143,3 +143,116 @@
     position: absolute;
     top: 24px;
 }
+
+/* Blog */
+.blog_date {
+    margin: 0 0 10px 0;
+    font-family: 'Helvetica', sans-serif;
+    font-size: small;
+    font-style: italic;
+    color: #727272;
+}
+
+.entry-title {
+    color: #95CA57;
+    font-size: x-large;
+}
+
+.section-title {
+    color: rgb(206, 79, 0);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.img-caption {
+    color: #a5a5a5;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+blockquote {
+    border: 1px solid #e6e6e6;
+    background-color: #f5f5f5;
+    margin: 5px 5px 20px;
+    padding: 15px;
+}
+
+/* Nutrients Database */
+.nutrient-table {
+    font-size: small;
+    border-collapse: collapse;
+    border: 3px solid #95CA57;
+}
+
+.nutrient-table thead {
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #95CA57;
+    border: 3px solid #95CA57;
+}
+
+.nutrient-table td {
+    text-align: left;
+}
+
+.nutrient-table .section {
+    font-weight: bold;
+    background-color: #95CA57;
+}
+
+.nutrient-table .last-row {
+    border-bottom: 3px solid #95CA57;
+}
+
+.nutrient-table .even-row {
+    background-color: #f2f2f2;
+}
+
+.fixed-table {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    z-index: 15;
+}
+
+.nutrient-summary {
+    width: 230px;
+    font-size: 12px;
+    border-collapse: collapse;
+    border: 2px solid #95CA57;
+    margin: 0;
+}
+
+.nutrient-summary thead {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #95CA57;
+    border: 2px solid #95CA57;
+}
+
+.nutrient-summary .serving-size {
+    color: #ff0000;
+}
+
+.nutrient-summary td {
+    text-align: left;
+    line-height: 8px;
+}
+
+.nutrient-summary .section {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #95CA57;
+}
+
+.nutrient-summary .last-row {
+    border-bottom: 2px solid #95CA57;
+}
+
+.nutrient-summary .even-row {
+    background-color: #f2f2f2;
+}
