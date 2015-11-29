@@ -7721,7 +7721,7 @@ body.nav-bottom #main-navbar {
     -moz-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s;
-    font-weight: 600
+    font-weight: 400
 }
 
 #main-navbar .main-nav > ul > li > a:before {
@@ -7848,7 +7848,8 @@ body.nav-bottom #main-navbar {
 
 #main-navbar .main-nav .subnav li a {
     color: #fff;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-weight: 400;
 }
 
 #main-navbar .main-nav .subnav li a:before {

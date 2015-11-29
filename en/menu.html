@@ -20,7 +20,7 @@
     <link rel='stylesheet' id='berg-woocommerce-css'
           href='../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='wowbox_customize-css'
-          href='../wp-content/themes/berg-wp/styles/css/wowbox_customize.css' type='text/css' media='all'/>
+          href='../css/wowbox_customize.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
     <script type='text/javascript'
@@ -220,19 +220,19 @@
                 <span class="filter" data-filter="all">Show all</span>
             </li>
             <li>
-                <span class="filter" data-filter=".category-premium">Premium Salads</span>
+                <span class="filter" data-filter=".category-premium .category-salad">Premium Salads</span>
             </li>
             <li>
-                <span class="filter" data-filter=".category-classic">Classic Salads</span>
+                <span class="filter" data-filter=".category-classic .category-salad">Classic Salads</span>
             </li>
             <li>
-                <span class="filter" data-filter=".category-signature">Signature Salads</span>
+                <span class="filter" data-filter=".category-signature .category-salad">Signature Salads</span>
             </li>
             <li>
                 <span class="filter" data-filter=".category-gsmoothie">Glowing Green Smoothies</span>
             </li>
             <li>
-                <span class="filter" data-filter=".category-everyday">Everyday Salads</span>
+                <span class="filter" data-filter=".category-everyday .category-salad">Everyday Salads</span>
             </li>
             <li>
                 <span class="filter" data-filter=".category-sidedish">Side Dishes</span>
@@ -245,7 +245,7 @@
             </li>
         </ul>
         <div class="container-fluid menu-content mixitup">
-            <div class="mix category-premium" data-myorder="1">
+            <div class="mix category-premium category-salad" data-myorder="1">
                 <div class="row">
                     <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
                         <h2>Premium Salads</h2>
@@ -354,7 +354,7 @@
                     </div>-->
                 </div>
             </div>
-            <div class="mix category-classic" data-myorder="1">
+            <div class="mix category-classic category-salad" data-myorder="1">
                 <div class="row">
                     <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
                         <h2>Classic Salads</h2>
@@ -539,7 +539,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mix category-signature" data-myorder="1">
+            <div class="mix category-signature category-salad" data-myorder="1">
                 <div class="row">
                     <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
                         <h2>Signature Salads</h2>
@@ -744,9 +744,51 @@
                             </div>
                         </div>
                     </div>
+                    <div class="menu-item">
+                        <a>
+                            <figure>
+                                <img width="400" height="400" src="../resources/images/menu/smoothie/kale_coconut_400x400.jpg"
+                                     class="attachment-menu_thumb wp-post-image" alt="G4. Coconut Green Smoothie"/>
+                            </figure>
+                        </a>
+
+                        <div class="item-description">
+                            <div class="">
+                                <div class="">
+                                    <h5 class="entry-title"><a rel="bookmark">G4. Coconut Green Smoothie</a></h5>
+                                    <br/>
+                                    <p><span class="label label-success">Regular : 50,000 VND</span><span class="label label-danger">323 Cal</span></p>
+                                    <p><span class="label label-warning">Upsize 1.5x : 70,000 VND</span><span class="label label-danger">485 Cal</span></p>
+                                    <br/>
+                                    <p>With <strong>Kale / Baby Spinach / Kale + Baby Spinach</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <a>
+                            <figure>
+                                <img width="400" height="400" src="../resources/images/menu/smoothie/kale_matcha_400x400.jpg"
+                                     class="attachment-menu_thumb wp-post-image" alt="G5. Matcha Green Smoothie"/>
+                            </figure>
+                        </a>
+
+                        <div class="item-description">
+                            <div class="">
+                                <div class="">
+                                    <h5 class="entry-title"><a rel="bookmark">G5. Matcha Green Smoothie</a></h5>
+                                    <br/>
+                                    <p><span class="label label-success">Regular : 45,000 VND</span><span class="label label-danger">242 Cal</span></p>
+                                    <p><span class="label label-warning">Upsize 1.5x : 65,000 VND</span><span class="label label-danger">363 Cal</span></p>
+                                    <br/>
+                                    <p>With <strong>Kale / Baby Spinach / Kale + Baby Spinach</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="mix category-everyday" data-myorder="1">
+            <div class="mix category-everyday category-salad" data-myorder="1">
                 <div class="row">
                     <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
                         <h2>Everyday Salad</h2>

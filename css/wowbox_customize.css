@@ -1,23 +1,25 @@
 /* Font */
 @font-face {
     font-family:rm;
-    src:url(../fonts/roboto/Roboto-Medium-webfont.eot);
-    src:url(../fonts/roboto/Roboto-Medium-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/roboto/Roboto-Medium-webfont.woff) format('woff'),url(../fonts/roboto/Roboto-Medium-webfont.ttf) format('truetype');
+    src:url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Medium-webfont.eot);
+    src:url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Medium-webfont.eot?#iefix) format('embedded-opentype'), url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Medium-webfont.woff) format('woff'),url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Medium-webfont.ttf) format('truetype');
 }
 @font-face {
     font-family:rl;
-    src:url(../fonts/roboto/Roboto-Light-webfont.eot);
-    src:url(../fonts/roboto/Roboto-Light-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/roboto/Roboto-Light-webfont.woff) format('woff'),url(../fonts/roboto/Roboto-Light-webfont.ttf) format('truetype');
+    src:url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Light-webfont.eot);
+    src:url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Light-webfont.eot?#iefix) format('embedded-opentype'),url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Light-webfont.woff) format('woff'),url(../wp-content/themes/berg-wp/styles/fonts/roboto/Roboto-Light-webfont.ttf) format('truetype');
 }
 
 body {
-    font-family: 'rl', sans-serif;
-    font-weight: 500;
+    /*font-family: 'rl', sans-serif;*/
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .list-category, #menu-main-menu, .label{
-    font-family: 'rm', sans-serif;
+    /*font-family: 'rm', sans-serif;*/
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 /* Order online button */
@@ -35,9 +37,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .largeredbtn {
-    font-family: 'rm', sans-serif;
-    font-weight: 900;
-    font-size: 16px;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 16px !important;
     line-height: 60px;
     color: #fff !important;
     text-decoration: none;
@@ -73,7 +75,8 @@ h1, h2, h3, h4, h5, h6,
     margin: 20px 0 0 110px;
     padding: 6px 14px;
     border-radius: 15px;
-    font-family: 'rm', sans-serif !important;
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif !important;
+    font-weight: 300;
     float: left;
 }
 
