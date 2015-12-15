@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6,
     padding: 6px 14px;
     border-radius: 15px;
     font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif !important;
-    font-weight: 300;
+    font-weight: 400 !important;
     float: left;
 }
 

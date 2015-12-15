@@ -5901,7 +5901,7 @@ table tbody + tbody {
     margin: 0;
     padding: 25px 15px;
     color: #fff;
-    letter-spacing: 5px;
+    /*letter-spacing: 5px;*/
     text-align: center
 }
 
@@ -7749,9 +7749,9 @@ body.nav-bottom #main-navbar {
     color: #333;
     line-height: 80px;
     display: block;
-    font-size: 13px;
+    font-size: 14px;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 1px;
 }
 
@@ -10445,7 +10445,6 @@ ul.picker__list {
     margin: 0 -15px 30px;
     padding: 15px 15px;
     color: #fff;
-    letter-spacing: 5px;
     text-align: center;
     text-transform: capitalize
 }
