@@ -74,7 +74,7 @@ jQuery(document).ready(function () {
                     dottedOverlay: "none",
                     delay: 5000,
                     startwidth: 1000,
-                    startheight: 700,
+                    startheight: 800,
                     hideThumbs: 200,
 
                     thumbWidth: 100,
@@ -124,7 +124,7 @@ jQuery(document).ready(function () {
                     stopAfterLoops: -1,
                     stopAtSlide: -1,
 
-                    shuffle: "on",
+                    shuffle: "off",
 
                     autoHeight: "off",
                     forceFullWidth: "off",

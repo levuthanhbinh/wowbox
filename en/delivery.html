@@ -21,51 +21,33 @@
           href='../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='wowbox_customize-css'
           href='../css/wowbox_customize.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='../css/delivery.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
-    <script type='text/javascript'
-            src='../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min-rev=4.5.95&ver=4.0.1.js'></script>
-    <script type='text/javascript'
-            src='../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min-rev=4.5.95&ver=4.0.1.js'></script>
-    <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&ver=1.0'></script>
     <style type="text/css">.recentcomments a {
         display: inline !important;
         padding: 0 !important;
         margin: 0 !important;
     }</style>
 </head>
-<body class="page page-id-401 page-template page-template-contact-php yo-anim-enabled no-intro show-nav wpb-js-composer js-comp-ver-4.3.2 vc_responsive">
+<body class="page page-template show-nav">
 <div class="content-wrapper">
     <nav id="main-navbar" class="hidden-xs hidden-sm">
         <div class="nav hidden-xs">
-            <div class="main-reorder pull-right">
-                <a href="contact.html#">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
             <div class="logo pull-left">
                 <a href="index.html">
-                    <figure class="light-logo">
-                        <span class="spacer"></span>
-                        <img src="../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
-                    <figure class="dark-logo">
-                        <span class="spacer"></span>
-                        <img src="../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
+                    <img src="../resources/images/logo/logo_200x200.png" width="100px" height="100px">
                 </a>
             </div>
             <div class="main-nav bg-opacity-100">
-                <span class="glf-button" id="glf-restaurant-order-online" style="margin: 20px 0 0; padding: 6px 14px; border-radius: 15px; font-family: 'Helvetica', sans-serif; float: left;">Order Online</span>
-                <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
                 <ul id="menu-main-menu" class="menu hidden-xs hidden-sm">
+                    <li>
+                        <span class="glf-button" id="glf-restaurant-order-online" style="margin: 14px 0 0; padding: 0 8px; font-size: 14px; border-radius: 2px;">Order Online</span>
+                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
+                    </li>
                     <li id="menu-item-2"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a
                             title="Tasty Menu" href="menu.html">Ready Menu</a>
-
                         <div class="subnav">
                             <ul class="subnav-wrapper">
                                 <li><a href="menu.html#category-premium">Premium Salads</a>
@@ -104,35 +86,18 @@
                         </div>
                     </li>
                     <li id="menu-item-3" class="menu-item menu-item-3"><a href="menu-cyo.html">Create Your Salad</a></li>
-                    <li id="menu-item-7" class="menu-item menu-item-7 current-menu-item page_item current_page_item"><a href="delivery.html">Delivery</a></li>
-                    <li id="menu-item-8" class="menu-item menu-item-8"><a>Resources</a>
-                        <div class="subnav">
-                            <ul class="subnav-wrapper">
-                                <li><a href="blog.html">Blog</a>
-                                    <div><a href="blog.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                                <li><a href="food-index.html">Food Index</a>
-                                    <div><a href="food-index.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
+                    <li id="menu-item-7" class="menu-item menu-item-7 current-menu-item current_page_item"><a href="delivery.html">Delivery</a></li>
+                    <li id="menu-item-8" class="menu-item menu-item-8"><a href="nutrition.html">Nutrition</a></li>
                     <li id="menu-item-4"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a
                             href="aboutus.html">About Us</a></li>
-                    <li id="menu-item-5"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5">
-                        <a href="contact.html">Contact</a>
-                    </li>
                     <li id="menu-item-1"
                         class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1 menu-item-1">
                         <a href="index.html">Home</a>
                     </li>
                     <li id="menu-item-6"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-has-children menu-item-6">
-                        <a href="../index.html">Tiếng Việt</a>
+                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-6">
+                        <a href="../index.html">VN</a>
                     </li>
                 </ul>
             </div>
@@ -169,7 +134,7 @@
                 <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item page_item page-item-17 menu-item-17">
                     <a href="delivery.html">Delivery</a></li>
                 <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-18 menu-item-18">
-                    <a href="blog.html">Blog</a></li>
+                    <a href="nutrition.html">Blog</a></li>
                 <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a
                         href="aboutus.html">About Us</a></li>
                 <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
@@ -182,660 +147,644 @@
         </div>
     </div>
 
-    <section class="section-scroll main-section">
-        <header class="section-header">
-            <h2 class="entry-title">Delivery Information</h2></header>
-        <div class="container section-padding">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container">
-                            <div class="wpb_wrapper">
-                                <table id="delivery" >
-                                    <thead>
-                                        <tr>
-                                            <td>District</td>
-                                            <td>Ward</td>
-                                            <td>Minimum<br/>Order<br/>(VND)</td>
-                                            <td>Delivery<br/>Fee<br/>(VND)</td>
-                                            <td>Free<br/>Delivery From<br/>(VND)</td>
-                                            <td>Estimated<br/>Delivery Time<br/>(mins)</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <!-- District 1 -->
-                                        <tr>
-                                            <td rowspan="10" class="district">1</td>
-                                            <td class="ward">Nguyen Thai Binh</td>
-                                            <td>65,000</td>
-                                            <td>5,000</td>
-                                            <td>100,000</td>
-                                            <td>30</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Ben Thanh</td>
-                                            <td>65,000</td>
-                                            <td>5,000</td>
-                                            <td>100,000</td>
-                                            <td>30</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Ben Nghe</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Pham Ngu Lao</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Cau Ong Lanh</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Nguyen Cu Trinh</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Co Giang</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Cau Kho</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Da Kao</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="last_row even_row">
-                                            <td class="ward">Tan Dinh</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <!-- District 2 -->
-                                        <tr>
-                                            <td rowspan="7" class="district">2</td>
-                                            <td class="ward">Thu Thiem</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">An Khanh</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">An Loi Dong</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Binh Khanh</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Binh An</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">An Phu</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="last_row">
-                                            <td class="ward">Thao Dien</td>
-                                            <td>300,000</td>
-                                            <td>30,000</td>
-                                            <td>350,000</td>
-                                            <td>60</td>
-                                        </tr>
-                                        <!-- District 3 -->
-                                        <tr class="even_row">
-                                            <td rowspan="14" class="district">3</td>
-                                            <td class="ward">6</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">5</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">4</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">8</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">7</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">2</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">3</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">9</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">1</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">13</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">10</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">14</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">12</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="last_row">
-                                            <td class="ward">11</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <!-- District 4 -->
-                                        <tr class="even_row">
-                                            <td rowspan="15" class="district">4</td>
-                                            <td class="ward">12</td>
-                                            <td>65,000</td>
-                                            <td>5,000</td>
-                                            <td>100,000</td>
-                                            <td>30</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">9</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">13</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">10</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">8</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">14</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">6</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">5</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">2</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">18</td>
-                                            <td>100,000</td>
-                                            <td>10,000</td>
-                                            <td>150,000</td>
-                                            <td>30 - 40</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">15</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">3</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">4</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">1</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="last_row even_row">
-                                            <td class="ward">16</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <!-- District 5 -->
-                                        <tr>
-                                            <td rowspan="15" class="district">5</td>
-                                            <td class="ward">4</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">1</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">2</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">3</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">5</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">9</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">8</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">7</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">6</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">12</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">10</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">11</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">14</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">15</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="last_row">
-                                            <td class="ward">13</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <!-- District 7 -->
-                                        <tr class="even_row">
-                                            <td rowspan="10" class="district">7</td>
-                                            <td class="ward">Tan Thuan Tay</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Tan Hung</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">PMH - Tan Kieng</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Binh Thuan</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">PMH - Tan Quy</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">Tan Thuan Dong</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">PMH - Tan Phu</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">PMH - Tan Phong</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">Phu Thuan</td>
-                                            <td>250,000</td>
-                                            <td>25,000</td>
-                                            <td>300,000</td>
-                                            <td>50 - 60</td>
-                                        </tr>
-                                        <tr class="last_row">
-                                            <td class="ward">Phu My</td>
-                                            <td>300,000</td>
-                                            <td>30,000</td>
-                                            <td>350,000</td>
-                                            <td>60</td>
-                                        </tr>
-                                        <!-- District 10 -->
-                                        <tr class="even_row">
-                                            <td rowspan="15" class="district">10</td>
-                                            <td class="ward">1</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">11</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">2</td>
-                                            <td>150,000</td>
-                                            <td>15,000</td>
-                                            <td>200,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">9</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">3</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">10</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">12</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">13</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">4</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">5</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">8</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">6</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="even_row">
-                                            <td class="ward">15</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="ward">7</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                        <tr class="last_row even_row">
-                                            <td class="ward">14</td>
-                                            <td>200,000</td>
-                                            <td>20,000</td>
-                                            <td>250,000</td>
-                                            <td>40 - 50</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="vc_row wpb_row vc_row-fluid hidden">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container">
-                            <div class="wpb_wrapper">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div id="web-content">
+        <section class="section">
+            <h1 class="section-header">DELIVERY AREA & FEE</h1>
+            <div class="delivery-table-wrapper">
+                <table id="delivery" >
+                    <thead>
+                    <tr>
+                        <td>District</td>
+                        <td>Ward</td>
+                        <td>Minimum<br/>Order<br/>(VND)</td>
+                        <td>Delivery<br/>Fee<br/>(VND)</td>
+                        <td>Free<br/>Delivery From<br/>(VND)</td>
+                        <td>Estimated<br/>Delivery Time<br/>(mins)</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- District 1 -->
+                    <tr>
+                        <td rowspan="10" class="district">1</td>
+                        <td class="ward">Nguyen Thai Binh</td>
+                        <td>75,000</td>
+                        <td>5,000</td>
+                        <td>100,000</td>
+                        <td>30</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Ben Thanh</td>
+                        <td>75,000</td>
+                        <td>5,000</td>
+                        <td>100,000</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Ben Nghe</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Pham Ngu Lao</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Cau Ong Lanh</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Nguyen Cu Trinh</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Co Giang</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Cau Kho</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Da Kao</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="last_row even_row">
+                        <td class="ward">Tan Dinh</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <!-- District 2 -->
+                    <tr>
+                        <td rowspan="7" class="district">2</td>
+                        <td class="ward">Thu Thiem</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">An Khanh</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">An Loi Dong</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Binh Khanh</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Binh An</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">An Phu</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="last_row">
+                        <td class="ward">Thao Dien</td>
+                        <td>300,000</td>
+                        <td>30,000</td>
+                        <td>350,000</td>
+                        <td>60</td>
+                    </tr>
+                    <!-- District 3 -->
+                    <tr class="even_row">
+                        <td rowspan="14" class="district">3</td>
+                        <td class="ward">6</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">5</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">4</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">8</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">7</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">2</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">3</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">9</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">1</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">13</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">10</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">14</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">12</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="last_row">
+                        <td class="ward">11</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <!-- District 4 -->
+                    <tr class="even_row">
+                        <td rowspan="15" class="district">4</td>
+                        <td class="ward">12</td>
+                        <td>65,000</td>
+                        <td>5,000</td>
+                        <td>100,000</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">9</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">13</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">10</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">8</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">14</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">6</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">5</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">2</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">18</td>
+                        <td>100,000</td>
+                        <td>10,000</td>
+                        <td>150,000</td>
+                        <td>30 - 40</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">15</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">3</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">4</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">1</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="last_row even_row">
+                        <td class="ward">16</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <!-- District 5 -->
+                    <tr>
+                        <td rowspan="15" class="district">5</td>
+                        <td class="ward">4</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">1</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">2</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">3</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">5</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">9</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">8</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">7</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">6</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">12</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">10</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">11</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">14</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">15</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="last_row">
+                        <td class="ward">13</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <!-- District 7 -->
+                    <tr class="even_row">
+                        <td rowspan="10" class="district">7</td>
+                        <td class="ward">Tan Thuan Tay</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Tan Hung</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">PMH - Tan Kieng</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Binh Thuan</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">PMH - Tan Quy</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">Tan Thuan Dong</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">PMH - Tan Phu</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">PMH - Tan Phong</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">Phu Thuan</td>
+                        <td>250,000</td>
+                        <td>25,000</td>
+                        <td>300,000</td>
+                        <td>50 - 60</td>
+                    </tr>
+                    <tr class="last_row">
+                        <td class="ward">Phu My</td>
+                        <td>300,000</td>
+                        <td>30,000</td>
+                        <td>350,000</td>
+                        <td>60</td>
+                    </tr>
+                    <!-- District 10 -->
+                    <tr class="even_row">
+                        <td rowspan="15" class="district">10</td>
+                        <td class="ward">1</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">11</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">2</td>
+                        <td>150,000</td>
+                        <td>15,000</td>
+                        <td>200,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">9</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">3</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">10</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">12</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">13</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">4</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">5</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">8</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">6</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="even_row">
+                        <td class="ward">15</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr>
+                        <td class="ward">7</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    <tr class="last_row even_row">
+                        <td class="ward">14</td>
+                        <td>200,000</td>
+                        <td>20,000</td>
+                        <td>250,000</td>
+                        <td>40 - 50</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+
     <div id="footer-spacer" style="height: 395px;"></div>
     <footer id="footer" class="text-center">
         <a href="menu.html#" class="to-the-top">

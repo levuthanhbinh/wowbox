@@ -22,6 +22,46 @@ h1, h2, h3, h4, h5, h6,
     font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+#main-navbar .main-nav > ul > li a {
+    line-height: 50px;
+}
+
+#main-navbar .main-nav .subnav {
+    min-height: 50px;
+    line-height: 50px;
+}
+
+#web-content {
+    position: relative;
+    min-width: 980px;
+    top: 50px;
+    margin-bottom: 50px;
+}
+
+.section {
+    overflow: hidden;
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    background-size: 1960px 180px;
+    background-image: url("../resources/images/index/section_bottom_1960x180.jpg");
+    background-position: top center;
+}
+
+.section-header {
+    margin-bottom: 10px;
+    font-size: 40px;
+    /*color: #37702F;*/
+    color: #085946;
+    font-weight: 300;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
 /* Order online button */
 .tp-caption a {
     color: #ff7302;
@@ -38,12 +78,13 @@ h1, h2, h3, h4, h5, h6,
 
 .largeredbtn {
     font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif !important;
-    font-weight: 300 !important;
-    font-size: 16px !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
     line-height: 60px;
     color: #fff !important;
     text-decoration: none;
     padding: 22px 80px 22px 40px;
+    padding: 0 10px;
     background: rgb(234, 91, 31);
     background: -moz-linear-gradient(top, rgba(234, 91, 31, 1) 0%, rgba(227, 58, 12, 1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(234, 91, 31, 1)), color-stop(100%, rgba(227, 58, 12, 1)));
@@ -236,14 +277,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .entry-title {
-    color: #95CA57;
-    font-size: x-large;
+    color: #085946;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .section-title {
     color: rgb(206, 79, 0);
     font-size: larger;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .img-caption {
@@ -336,46 +378,6 @@ blockquote {
 }
 
 .nutrient-summary .even-row {
-    background-color: #f2f2f2;
-}
-
-/* Delivery */
-#delivery {
-    font-size: small;
-    border-collapse: collapse;
-    border: 3px solid #95CA57;
-}
-
-#delivery thead {
-    color: #ffffff;
-    font-size: medium;
-    font-weight: bold;
-    background-color: #95CA57;
-    border: 3px solid #95CA57;
-}
-
-#delivery td {
-    text-align: center;
-}
-
-#delivery .district {
-    color: #ca293e;
-    font-size: x-large;
-    font-weight: bold;
-    border: 3px solid #95CA57;
-    background-color: #ffffff;
-}
-
-#delivery .ward {
-    color: #ca293e;
-    font-weight: bold;
-}
-
-#delivery .last_row {
-    border-bottom: 3px solid #95CA57;
-}
-
-#delivery .even_row {
     background-color: #f2f2f2;
 }
 

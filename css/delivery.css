@@ -1,0 +1,46 @@
+.delivery-table-wrapper {
+    margin: 40px auto 80px;
+    width: 800px;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+#delivery {
+    font-size: small;
+    border-collapse: collapse;
+    border: 2px solid #95CA57;
+}
+
+#delivery thead {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #95CA57;
+    border: 2px solid #95CA57;
+}
+
+#delivery td {
+    text-align: center;
+}
+
+#delivery .district {
+    color: #ca293e;
+    font-size: 30px;
+    font-weight: 400;
+    border: 2px solid #95CA57;
+    background-color: #ffffff;
+}
+
+#delivery .ward {
+    color: #ca293e;
+    font-weight: 400;
+}
+
+#delivery .last_row {
+    border-bottom: 2px solid #95CA57;
+}
+
+#delivery .even_row {
+    background-color: #fafafa;
+}

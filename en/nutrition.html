@@ -21,6 +21,7 @@
           href='../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='wowbox_customize-css'
           href='../css/wowbox_customize.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='../css/blog.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
     <script type='text/javascript'
@@ -34,53 +35,24 @@
         margin: 0 !important;
     }</style>
 </head>
-<body class="page page-id-401 page-template page-template-contact-php yo-anim-enabled no-intro show-nav wpb-js-composer js-comp-ver-4.3.2 vc_responsive">
+<body class="page page-template show-nav">
 <div class="content-wrapper">
     <nav id="main-navbar" class="hidden-xs hidden-sm">
         <div class="nav hidden-xs">
-            <div class="main-reorder pull-right">
-                <a href="contact.html#">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
             <div class="logo pull-left">
                 <a href="index.html">
-                    <figure class="light-logo">
-                        <span class="spacer"></span>
-                        <img src="../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
-                    <figure class="dark-logo">
-                        <span class="spacer"></span>
-                        <img src="../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
+                    <img src="../resources/images/logo/logo_200x200.png" width="100px" height="100px">
                 </a>
             </div>
             <div class="main-nav bg-opacity-100">
-                <span class="glf-button" id="glf-restaurant-order-online"
-                      style="margin: 20px 0 0; padding: 6px 14px; border-radius: 15px; font-family: 'Helvetica', sans-serif; float: left;">Order Online</span>
-                <script> (function (w, d, s, id, h, bid, cuid) {
-                    var js, fjs = d.getElementsByTagName(s)[0], l = function () {
-                        glfWidget(h, [bid], cuid);
-                        d.getElementById(bid).removeAttribute('id');
-                    }, b = function (s) {
-                        s.addEventListener ? s.addEventListener('load', l, false) : s.attachEvent("onload", l);
-                    };
-                    if (!(js = d.getElementById(id))) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = h + "widget/js/ewm.js";
-                        b(js);
-                        fjs.parentNode.insertBefore(js, fjs);
-                    } else if (!w.glfWidget) b(js); else l();
-                }(window, document, 'script', 'glf-embedder-js', "https://www.foodbooking.com/", "glf-restaurant-order-online", "167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
                 <ul id="menu-main-menu" class="menu hidden-xs hidden-sm">
+                    <li>
+                        <span class="glf-button" id="glf-restaurant-order-online" style="margin: 14px 0 0; padding: 0 8px; font-size: 14px; border-radius: 2px;">Order Online</span>
+                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
+                    </li>
                     <li id="menu-item-2"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a
                             title="Tasty Menu" href="menu.html">Ready Menu</a>
-
                         <div class="subnav">
                             <ul class="subnav-wrapper">
                                 <li><a href="menu.html#category-premium">Premium Salads</a>
@@ -118,38 +90,19 @@
                             </ul>
                         </div>
                     </li>
-                    <li id="menu-item-3" class="menu-item menu-item-3"><a href="menu-cyo.html">Create Your Salad</a>
-                    </li>
-                    <li id="menu-item-7" class="menu-item menu-item-7"><a
-                            href="delivery.html">Delivery</a></li>
-                    <li id="menu-item-8" class="menu-item menu-item-8"><a>Resources</a>
-                        <div class="subnav">
-                            <ul class="subnav-wrapper">
-                                <li><a href="blog.html">Blog</a>
-                                    <div><a href="blog.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                                <li><a href="food-index.html">Food Index</a>
-                                    <div><a href="food-index.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
+                    <li id="menu-item-3" class="menu-item menu-item-3"><a href="menu-cyo.html">Create Your Salad</a></li>
+                    <li id="menu-item-7" class="menu-item menu-item-7"><a href="delivery.html">Delivery</a></li>
+                    <li id="menu-item-8" class="menu-item menu-item-8 current-menu-item current_page_item"><a href="nutrition.html">Nutrition</a></li>
                     <li id="menu-item-4"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a
                             href="aboutus.html">About Us</a></li>
-                    <li id="menu-item-5"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5">
-                        <a href="contact.html">Contact</a>
-                    </li>
                     <li id="menu-item-1"
                         class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1 menu-item-1">
                         <a href="index.html">Home</a>
                     </li>
                     <li id="menu-item-6"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-has-children menu-item-6">
-                        <a href="../index.html">Tiếng Việt</a>
+                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-6">
+                        <a href="../index.html">VN</a>
                     </li>
                 </ul>
             </div>
@@ -204,7 +157,7 @@
                     <a href="delivery.html">Delivery</a></li>
                 <li id="menu-item-18"
                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item current_page_item page_item page-item-18 menu-item-18">
-                    <a href="blog.html">Blog</a></li>
+                    <a href="nutrition.html">Blog</a></li>
                 <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a
                         href="aboutus.html">About Us</a></li>
                 <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
@@ -217,138 +170,185 @@
         </div>
     </div>
 
-    <section class="section-scroll main-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-10 col-md-offset-1">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container">
-                            <div class="wpb_wrapper">
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <h1 style="text-align: center; color: #95CA57;">All You Need to Know About Salads & Green Smoothies</h1>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+    <div id="web-content">
+        <section class="section">
+            <h1 class="section-header">BLOG</h1>
+            <h3 class="section-description">
+                Changing your daily diet for a healthy life.<br/>
+                Low-carb. Rich in fiber. Nutritious.<br/>
+                Yet so simple.
+            </h3>
+            <div class="out-wrapper">
+                <div class="masonry-wrapper">
+                    <div class="blog-masonry">
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="blog/20151105-10-things-you-dont-know-about-calories.html"
+                               title="10 Things You Don't Know about Calories">
+                                <img src="../resources/images/blog/20151105/calories_400x200.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">05 November, 2015. <i>From</i> <b>Shape</b></div>
+                                <div class="blog-item-title">
+                                    <a href="blog/20151105-10-things-you-dont-know-about-calories.html">10 Things You Don't Know About Calories</a>
                                 </div>
-                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
-
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p style="text-align: center;">Making one simple change to your diet – adding a salad and a green smoothie almost every day – can pay off with plenty of health benefits.</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Here's the real skinny answers from the experts to 10 of the most frequently asked questions about calories, and what you really need to know to lose weight.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="blog/20150710-15-eating-habits-that-make-you-live-longer.html"
+                               title="10 Things You Don't Know about Calories">
+                                <img src="../resources/images/blog/20150710/diet_200x200.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">10 July, 2015. <i>By</i> <b>Dan Buettner</b></div>
+                                <div class="blog-item-title">
+                                    <a href="blog/20150710-15-eating-habits-that-make-you-live-longer.html">15 Eating Habits That Make You Live Longer</a>
                                 </div>
-                                <div class="vc_separator wpb_content_element vc_el_width_80 vc_sep_double vc_sep_color_grey">
-                                    <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
-                                    <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>After analyzing more than 150 dietary studies conducted in Blue Zones over the past century, we came up with a global average of what centenarians really eat. Here are 15 age-old diet tips to borrow from the longest-living people on the planet.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="blog/20150709-top-9-benefits-of-green-smoothies.html"
+                               title="Top 9 Benefits Of Green Smoothies">
+                                <img src="../resources/images/blog/20150709/green_smoothie_400x599.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">09 July, 2015. <i>By</i> <b>Hilary Greenleaf</b></div>
+                                <div class="blog-item-title">
+                                    <a href="blog/20150709-top-9-benefits-of-green-smoothies.html">Top 9 Benefits Of Green Smoothies</a>
                                 </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Green smoothies have many health benefits, and can include spinach, lettuce, kale, and collard greens. Here’s a brief introduction to the many advantages of drinking green smoothies on a daily basis.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="blog/20150606-10-proven-benefits-of-kale.html"
+                               title="10 Proven Benefits of Kale">
+                                <img src="../resources/images/blog/20150606/kale_400x481.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">06 June, 2015. <i>By</i> <b>Kris Gunnars</b></div>
+                                <div class="blog-item-title">
+                                    <a href="blog/20150606-10-proven-benefits-of-kale.html">10 Proven Benefits of Kale</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Of all the super healthy greens, kale is the king. It is definitely one of the healthiest and most nutritious plant foods in existence. Here are 10 health benefits of kale, that are supported by science. </span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="blog/20150604-where-to-buy-salad-hcmc.html"
+                               title="Where to Buy Salad in HCMC?">
+                                <img src="../resources/images/blog/20150604/blog_1_intro_200x200.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">06 June, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="blog/20150604-where-to-buy-salad-hcmc.html">Where to Buy Salad in HCMC?</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Bringing a new dining trend into Vietnam by focusing on a wide variety of healthy salads as the main dish, WowBox Salad Bar offers fresh and joyful experiences that you could not resist.</span>
                             </div>
                         </div>
                     </div>
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container">
-                            <div class="wpb_wrapper">
-                                <div class="wpb_row wpb_teaser_grid wpb_content_element wpb_grid columns_count_4 columns_count_4 wpb_teaser_grid_post ">
-                                    <div class="wpb_wrapper">
-                                        <div class="teaser_grid_container">
-                                            <ul class="wpb_thumbnails wpb_thumbnails-fluid vc_clearfix"
-                                                data-layout-mode="fitRows">
-                                                <li class="isotope-item vc_col-sm-4 grid-cat-16">
-                                                    <div class="isotope-inner">
-                                                        <div class="post-thumb">
-                                                            <a href="blog/20150604-where-to-buy-salad-hcmc.html" class="link_image"
-                                                               title="Where to buy salad in HCMC?"><img
-                                                                    width="200" height="200"
-                                                                    src="../resources/images/blog/20150604/blog_1_intro_200x200.jpg"
-                                                                    class="attachment-thumbnail" alt="intro"/></a></div>
-                                                        <p class="blog_date">04 June, 2015</p>
-                                                        <h2 class="post-title">
-                                                            <a href="blog/20150604-where-to-buy-salad-hcmc.html" class="link_title">Where to Buy Salad in HCMC?</a></h2>
-                                                    </div>
-                                                </li>
-                                                <li class="isotope-item vc_col-sm-4 grid-cat-16">
-                                                    <div class="isotope-inner">
-                                                        <div class="post-thumb">
-                                                            <a href="blog/20150606-10-proven-benefits-of-kale.html" class="link_image"
-                                                               title="10 Proven Benefits of Kale"><img
-                                                                    width="200" height="200"
-                                                                    src="../resources/images/blog/20150606/kale_200x200.jpg"
-                                                                    class="attachment-thumbnail" alt="intro"/></a></div>
-                                                        <p class="blog_date">06 June, 2015</p>
-                                                        <h2 class="post-title">
-                                                            <a href="blog/20150606-10-proven-benefits-of-kale.html" class="link_title">10 Proven Benefits of Kale</a></h2>
-                                                    </div>
-                                                </li>
-                                                <li class="isotope-item vc_col-sm-4 grid-cat-16">
-                                                    <div class="isotope-inner">
-                                                        <div class="post-thumb">
-                                                            <a href="blog/20150709-top-9-benefits-of-green-smoothies.html" class="link_image"
-                                                               title="Top 10 Benefits Of Green Smoothies"><img
-                                                                    width="200" height="200"
-                                                                    src="../resources/images/blog/20150709/green_smoothie_200x200.jpg"
-                                                                    class="attachment-thumbnail" alt="intro"/></a></div>
-                                                        <p class="blog_date">09 July, 2015</p>
-                                                        <h2 class="post-title">
-                                                            <a href="blog/20150709-top-9-benefits-of-green-smoothies.html" class="link_title">Top 9 Benefits Of Green Smoothies</a></h2>
-                                                    </div>
-                                                </li>
-                                                <li class="isotope-item vc_col-sm-4 grid-cat-16">
-                                                    <div class="isotope-inner">
-                                                        <div class="post-thumb">
-                                                            <a href="blog/20150710-15-eating-habits-that-make-you-live-longer.html" class="link_image"
-                                                               title="Top 10 Benefits Of Green Smoothies"><img
-                                                                    width="200" height="200"
-                                                                    src="../resources/images/blog/20150710/diet_200x200.jpg"
-                                                                    class="attachment-thumbnail" alt="intro"/></a></div>
-                                                        <p class="blog_date">10 July, 2015</p>
-                                                        <h2 class="post-title">
-                                                            <a href="blog/20150710-15-eating-habits-that-make-you-live-longer.html" class="link_title">15 Eating Habits That Make You Live Longer</a></h2>
-                                                    </div>
-                                                </li>
-                                                <li class="isotope-item vc_col-sm-4 grid-cat-16">
-                                                    <div class="isotope-inner">
-                                                        <div class="post-thumb">
-                                                            <a href="blog/20151105-10-things-you-dont-know-about-calories.html" class="link_image"
-                                                               title="10 Things You Don't Know about Calories"><img
-                                                                    width="200" height="200"
-                                                                    src="../resources/images/blog/20151105/low_calorie_200x200.jpg"
-                                                                    class="attachment-thumbnail" alt="intro"/></a></div>
-                                                        <p class="blog_date">05 November, 2015</p>
-                                                        <h2 class="post-title">
-                                                            <a href="blog/20151105-10-things-you-dont-know-about-calories.html" class="link_title">10 Things You Don't Know about Calories</a></h2>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid hidden">
-                        <div class="vc_col-sm-12 wpb_column vc_column_container">
-                            <div class="wpb_wrapper">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-4 widget-sidebar hidden">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="section">
+            <h1 class="section-header">A-Z SALAD INGREDIENT INDEX</h1>
+            <h3 class="section-description">
+                Concise. Completed. Scientific proven.
+            </h3>
+            <div class="out-wrapper">
+                <div class="masonry-wrapper">
+                    <div class="blog-masonry">
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="food-index/almond.html"
+                               title="Almond">
+                                <img src="../resources/images/food-index/almond/almond_400x400.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">07 November, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="food-index/almond.html">Almond</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>The almond is a species of tree native to the Middle East and South Asia. "Almond" is also the name of the edible and widely cultivated seed of this tree.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="food-index/asparagus.html"
+                               title="Asparagus">
+                                <img src="../resources/images/food-index/asparagus/asparagus_400x400.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">18 November, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="food-index/asparagus.html">Asparagus</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Asparagus or garden asparagus, scientific name Asparagus officinalis, is a spring vegetable, a flowering perennial plant species in the genus Asparagus.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="food-index/kale.html"
+                               title="Top 9 Benefits Of Green Smoothies">
+                                <img src="../resources/images/food-index/kale/kale_400x400.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">08 November, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="food-index/kale.html">Kale</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Botanically, the plant belongs to the “cabbage” (Brassica) family subgroup of Brassica oleracea (acephala group), characteristic of headless, leafy greens. It features close similarity in growth and appearance to collard greens.</span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="food-index/lettuce.html"
+                               title="Lettuce">
+                                <img src="../resources/images/food-index/lettuce/lettuce_400x400.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">08 November, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="food-index/lettuce.html">Lettuce</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Lettuce (Lactuca sativa) is an annual plant of the daisy family Asteraceae. It is most often grown as a leaf vegetable, but sometimes for its stem and seeds. </span>
+                            </div>
+                        </div>
+                        <div class="blog-item">
+                            <a class="blog-item-image" href="food-index/spinach.html"
+                               title="Spinach">
+                                <img src="../resources/images/food-index/spinach/spinach_400x400.jpg"/>
+                            </a>
+                            <div class="blog-item-credit">
+                                <div class="blog-item-date">08 November, 2015. <i>By</i> <b>WowBox</b></div>
+                                <div class="blog-item-title">
+                                    <a href="food-index/spinach.html">Spinach</a>
+                                </div>
+                            </div>
+                            <div class="blog-item-meta">
+                                <span>Spinach (Spinacia oleracea) is an edible flowering plant in the family Amaranthaceae native to central and western Asia. </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <div id="footer-spacer" style="height: 395px;"></div>
     <footer id="footer" class="text-center">
         <a href="menu.html#" class="to-the-top">

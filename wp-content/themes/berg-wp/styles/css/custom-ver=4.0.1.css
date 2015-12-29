@@ -7679,7 +7679,7 @@ body.nav-bottom #main-navbar {
     -o-transition: opacity .3s, max-height .1s .3s;
     transition: opacity .3s, max-height .1s .3s;
     padding-left: 200px;
-    padding-right: 80px;
+    padding-right: 10px;
     max-height: 0
 }
 
@@ -7963,9 +7963,9 @@ body.nav-bottom #main-navbar {
 }
 
 .logo img {
-    max-height: 100%;
+    /*max-height: 100%;*/
     display: inline-block;
-    padding: 5px 0
+    padding: 0
 }
 
 .logo .spacer {
