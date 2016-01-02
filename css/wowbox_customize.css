@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6,
 
 #web-content {
     position: relative;
-    min-width: 980px;
+    /*min-width: 980px;*/
     top: 50px;
     margin-bottom: 50px;
 }
@@ -308,6 +308,7 @@ blockquote {
     font-size: small;
     border-collapse: collapse;
     border: 3px solid #95CA57;
+    width: 98%;
 }
 
 .nutrient-table thead {

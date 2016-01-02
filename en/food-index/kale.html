@@ -42,6 +42,8 @@
           href='../../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet'
           href='../../css/wowbox_customize.css' type='text/css' media='all'/>
+    <link rel='stylesheet'
+          href='../../css/food_index_article.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
     <script type='text/javascript'
@@ -55,8 +57,9 @@
         margin: 0 !important;
     }</style>
 </head>
-<body class="page page-id-401 page-template page-template-contact-php yo-anim-enabled no-intro show-nav wpb-js-composer js-comp-ver-4.3.2 vc_responsive">
+<body class="page page-template show-nav">
 <div id="fb-root"></div>
+
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -64,37 +67,24 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=191781424203643";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="content-wrapper">
     <nav id="main-navbar" class="hidden-xs hidden-sm">
         <div class="nav hidden-xs">
-            <div class="main-reorder pull-right">
-                <a href="../contact.html#">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
             <div class="logo pull-left">
                 <a href="../index.html">
-                    <figure class="light-logo">
-                        <span class="spacer"></span>
-                        <img src="../../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
-                    <figure class="dark-logo">
-                        <span class="spacer"></span>
-                        <img src="../../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
+                    <img src="../../resources/images/logo/logo_200x200.png" width="100px" height="100px">
                 </a>
             </div>
             <div class="main-nav bg-opacity-100">
-                <span class="glf-button" id="glf-restaurant-order-online" style="margin: 20px 0 0; padding: 6px 14px; border-radius: 15px; font-family: 'Helvetica', sans-serif; float: left;">Order Online</span>
-                <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
                 <ul id="menu-main-menu" class="menu hidden-xs hidden-sm">
+                    <li>
+                        <span class="glf-button" id="glf-restaurant-order-online" style="margin: 14px 0 0; padding: 0 8px; font-size: 14px; border-radius: 2px;">Order Online</span>
+                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
+                    </li>
                     <li id="menu-item-2"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a
+                        class="menu-item menu-item-2"><a
                             title="Tasty Menu" href="../menu.html">Ready Menu</a>
-
                         <div class="subnav">
                             <ul class="subnav-wrapper">
                                 <li><a href="../menu.html#category-premium">Premium Salads</a>
@@ -134,35 +124,10 @@
                     </li>
                     <li id="menu-item-3" class="menu-item menu-item-3"><a href="../menu-cyo.html">Create Your Salad</a></li>
                     <li id="menu-item-7" class="menu-item menu-item-7"><a href="../delivery.html">Delivery</a></li>
-                    <li id="menu-item-8" class="menu-item menu-item-8"><a>Resources</a>
-                        <div class="subnav">
-                            <ul class="subnav-wrapper">
-                                <li><a href="../nutrition.html">Blog</a>
-                                    <div><a href="../nutrition.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                                <li><a href="../food-index.html">Food Index</a>
-                                    <div><a href="../food-index.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li id="menu-item-4"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a
-                            href="../aboutus.html">About Us</a></li>
-                    <li id="menu-item-5"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5">
-                        <a href="../contact.html">Contact</a>
-                    </li>
-                    <li id="menu-item-1"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1 menu-item-1">
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li id="menu-item-6"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-has-children menu-item-6">
-                        <a href="../../index.html">Tiếng Việt</a>
-                    </li>
+                    <li id="menu-item-8" class="menu-item menu-item-8"><a href="../nutrition.html">Nutrition</a></li>
+                    <li id="menu-item-4" class="menu-item menu-item-4"><a href="../aboutus.html">About Us</a></li>
+                    <li id="menu-item-1" class="menu-item menu-item-1"><a href="../index.html">Home</a></li>
+                    <li id="menu-item-6" class="menu-item menu-item-6"><a href="../../index.html">VN</a></li>
                 </ul>
             </div>
         </div>
@@ -211,316 +176,318 @@
         </div>
     </div>
 
-    <section id="post" class="section-scroll main-section blog">
-        <div class="container-fluid">
-            <div class="row">
-                <article class="post">
-                    <a class="img-post">
-                        <figure>
-                            <img width="1000" height="600" src="../../resources/images/food-index/kale/kale_1000x600.jpg"
-                                 class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
-                    </a>
+    <div id="web-content">
+        <section id="post" class="section-scroll main-section blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <article class="post">
+                        <a class="img-post">
+                            <figure>
+                                <img width="1000" height="600" src="../../resources/images/food-index/kale/kale_1000x600.jpg"
+                                     class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
+                        </a>
 
-                    <div class="post-content ">
-                        <div class="post-wrapper">
-                            <div class="post-wrapper-inner">
-                                <span class="date">
-                                    <span class="posted-on">
-                                        <span>
-                                            <time class="entry-date published" datetime="2015-11-07T00:00:00+07:00">
-                                                08 November, 2015
-                                            </time>
+                        <div class="post-content ">
+                            <div class="post-wrapper">
+                                <div class="post-wrapper-inner">
+                                    <span class="date">
+                                        <span class="posted-on">
+                                            <span>
+                                                <time class="entry-date published" datetime="2015-11-07T00:00:00+07:00">
+                                                    08 November, 2015
+                                                </time>
+                                            </span>
                                         </span>
                                     </span>
-                                </span>
 
-                                <h1 class="entry-title">Kale</h1>
-                                <ul class="post_details">
-                                    <li><span>WowBox</span></li>
-                                </ul>
-                                <div class="social-share">
-                                    <ul>
-                                        <li>
-                                            <div class="fb-share-button" data-href="http://wowbox.vn/en/food_index/kale.html" data-layout="button"></div>
-                                        </li>
+                                    <h1 class="entry-title">Kale</h1>
+                                    <ul class="post_details">
+                                        <li><span>WowBox</span></li>
                                     </ul>
+                                    <div class="social-share">
+                                        <ul>
+                                            <li>
+                                                <div class="fb-share-button" data-href="http://wowbox.vn/en/food_index/kale.html" data-layout="button"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <div class="container">
-                    <div class="row">
-                        <div class="post-text col-md-8 col-md-offset-2">
-                            <article>
-                                <div class="fixed-table hidden-xs hidden-sm" style="">
-                                    <table class="nutrient-summary">
-                                        <thead>
-                                        <tr><td colspan="3" class="serving-size">100 g of raw Kale</td></tr>
-                                        <tr><td>Principle</td><td>Value</td><td>RDA %</td></tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr><td>Energy</td><td>50 Kcal</td><td>2.5%</td></tr>
-                                        <tr class="even-row"><td>Carbohydrates</td><td>10.01 g</td><td>8%</td></tr>
-                                        <tr><td>Protein</td><td>3.30 g</td><td>6%</td></tr>
-                                        <tr class="even-row"><td>Total Fat</td><td>0.70 g</td><td>3%</td></tr>
-                                        <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
-                                        <tr class="even-row"><td>Dietary Fiber</td><td>2.0 g</td><td>5%</td></tr>
-                                        <tr class="section"><td colspan="3">Vitamins</td></tr>
-                                        <tr><td>Vitamin B9</td><td>29 μg</td><td>7%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B3</td><td>1.000 mg</td><td>6%</td></tr>
-                                        <tr><td>Vitamin B5</td><td>0.091 mg</td><td>1.5%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B6</td><td>0.271 mg</td><td>21%</td></tr>
-                                        <tr><td>Vitamin B2</td><td>0.130 mg</td><td>10%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B1</td><td>0.110 mg</td><td>9%</td></tr>
-                                        <tr><td>Vitamin A</td><td>15376 IU</td><td>512%</td></tr>
-                                        <tr class="even-row"><td>Vitamin C</td><td>120 mg</td><td>200%</td></tr>
-                                        <tr><td>Vitamin K</td><td>817 μg</td><td>681%</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="vc_row wpb_row vc_row-fluid">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <!--<p><span class="dropcap">S</span><b><strong>pinach (Spinacia
-                                                        oleracea) is an edible flowering plant in the family
-                                                        Amaranthaceae native to central and western Asia.</strong></b>
-                                                    </p>-->
+                    </article>
+                    <div class="container">
+                        <div class="row">
+                            <div class="post-text col-md-8 col-md-offset-2">
+                                <article>
+                                    <div class="fixed-table hidden-xs hidden-sm" style="">
+                                        <table class="nutrient-summary">
+                                            <thead>
+                                            <tr><td colspan="3" class="serving-size">100 g of raw Kale</td></tr>
+                                            <tr><td>Principle</td><td>Value</td><td>RDA %</td></tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr><td>Energy</td><td>50 Kcal</td><td>2.5%</td></tr>
+                                            <tr class="even-row"><td>Carbohydrates</td><td>10.01 g</td><td>8%</td></tr>
+                                            <tr><td>Protein</td><td>3.30 g</td><td>6%</td></tr>
+                                            <tr class="even-row"><td>Total Fat</td><td>0.70 g</td><td>3%</td></tr>
+                                            <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
+                                            <tr class="even-row"><td>Dietary Fiber</td><td>2.0 g</td><td>5%</td></tr>
+                                            <tr class="table-section"><td colspan="3">Vitamins</td></tr>
+                                            <tr><td>Vitamin B9</td><td>29 μg</td><td>7%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B3</td><td>1.000 mg</td><td>6%</td></tr>
+                                            <tr><td>Vitamin B5</td><td>0.091 mg</td><td>1.5%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B6</td><td>0.271 mg</td><td>21%</td></tr>
+                                            <tr><td>Vitamin B2</td><td>0.130 mg</td><td>10%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B1</td><td>0.110 mg</td><td>9%</td></tr>
+                                            <tr><td>Vitamin A</td><td>15376 IU</td><td>512%</td></tr>
+                                            <tr class="even-row"><td>Vitamin C</td><td>120 mg</td><td>200%</td></tr>
+                                            <tr><td>Vitamin K</td><td>817 μg</td><td>681%</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <!--<p><span class="dropcap">S</span><b><strong>pinach (Spinacia
+                                                            oleracea) is an edible flowering plant in the family
+                                                            Amaranthaceae native to central and western Asia.</strong></b>
+                                                        </p>-->
 
-                                                    <h3 class="section-title">1. Kale Nutrition Facts</h3>
+                                                        <h3 class="section-title">1. Kale Nutrition Facts</h3>
 
-                                                    <p><b>Kale</b> or <b>borecole</b> is rich in numerous health
-                                                        benefiting polyphenolic flavonoid compounds such as lutein, zea-
-                                                        xanthin, and beta-carotene, and vitamins than found in any other
-                                                        green leafy vegetables. It is widely cultivated across Europe,
-                                                        Japan, and the United States for its “frilly“leaves.</p>
+                                                        <p><b>Kale</b> or <b>borecole</b> is rich in numerous health
+                                                            benefiting polyphenolic flavonoid compounds such as lutein, zea-
+                                                            xanthin, and beta-carotene, and vitamins than found in any other
+                                                            green leafy vegetables. It is widely cultivated across Europe,
+                                                            Japan, and the United States for its “frilly“leaves.</p>
 
-                                                    <p>Botanically, the plant belongs to the “cabbage” (Brassica) family
-                                                        subgroup of Brassica oleracea (acephala group), characteristic
-                                                        of headless, leafy greens. It features close similarity in
-                                                        growth and appearance to collard greens. Other common vegetables
-                                                        closely related being: broccoli, cauliflower, brussels sprouts,
-                                                        etc.</p>
+                                                        <p>Botanically, the plant belongs to the “cabbage” (Brassica) family
+                                                            subgroup of Brassica oleracea (acephala group), characteristic
+                                                            of headless, leafy greens. It features close similarity in
+                                                            growth and appearance to collard greens. Other common vegetables
+                                                            closely related being: broccoli, cauliflower, brussels sprouts,
+                                                            etc.</p>
 
-                                                    <figure style="text-align: center">
-                                                        <img src='../../resources/images/food-index/kale/kale_type_1000x621.jpg'
-                                                             alt='kale types'/>
-                                                        <figcaption class="img-caption">The 5 main types of kale
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure style="text-align: center">
+                                                            <img src='../../resources/images/food-index/kale/kale_type_1000x621.jpg'
+                                                                 alt='kale types'/>
+                                                            <figcaption class="img-caption">The 5 main types of kale
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>Kale is an annual plant, flourishes well in rich organic soil and
-                                                        prefers cool climate and light frost conditions. Its succulent,
-                                                        curly leaves appear “rosette” like and may have dark green to
-                                                        blue-green color depending on the cultivar type. It is grown
-                                                        mainly for autumn and winter harvest, because cool weather
-                                                        further enhances its sweet taste quality.</p>
+                                                        <p>Kale is an annual plant, flourishes well in rich organic soil and
+                                                            prefers cool climate and light frost conditions. Its succulent,
+                                                            curly leaves appear “rosette” like and may have dark green to
+                                                            blue-green color depending on the cultivar type. It is grown
+                                                            mainly for autumn and winter harvest, because cool weather
+                                                            further enhances its sweet taste quality.</p>
 
-                                                    <p>Some of the important cultivars grown around the globe are
-                                                        Scottish curly leaf (<i>Brassica napus (Pabularia Group)</i>),
-                                                        Red Russian, Blue curled, Winterbor cultivars.</p>
+                                                        <p>Some of the important cultivars grown around the globe are
+                                                            Scottish curly leaf (<i>Brassica napus (Pabularia Group)</i>),
+                                                            Red Russian, Blue curled, Winterbor cultivars.</p>
 
-                                                    <p><b>Tuscan kale</b>, also known as <i>cavalo nero or lacinato
-                                                        kale</i>, is a popular winter-season green in the Northern parts
-                                                        of Italy. It features distinctive very long, curly, blue-green
-                                                        leaves with embossed surface resembling dinosaur skin, giving
-                                                        its name as <i>dinosaur</i> kale.</p>
+                                                        <p><b>Tuscan kale</b>, also known as <i>cavalo nero or lacinato
+                                                            kale</i>, is a popular winter-season green in the Northern parts
+                                                            of Italy. It features distinctive very long, curly, blue-green
+                                                            leaves with embossed surface resembling dinosaur skin, giving
+                                                            its name as <i>dinosaur</i> kale.</p>
 
-                                                    <h3 class="section-title">2. Health Benefits of Kale (Borecole)</h3>
+                                                        <h3 class="section-title">2. Health Benefits of Kale (Borecole)</h3>
 
-                                                    <p>Kale is a very versatile and nutritious green leafy vegetable. It
-                                                        is a widely popular vegetable since ancient Greek and Roman
-                                                        times for its low fat, no cholesterol but health benefiting
-                                                        anti-oxidant properties.</p>
+                                                        <p>Kale is a very versatile and nutritious green leafy vegetable. It
+                                                            is a widely popular vegetable since ancient Greek and Roman
+                                                            times for its low fat, no cholesterol but health benefiting
+                                                            anti-oxidant properties.</p>
 
-                                                    <p>Kale, like other members of the Brassica family, contains
-                                                        health-promoting phytochemicals, <b>sulforaphane and
-                                                        indole-3-carbinol</b> that appear to protect against prostate and
-                                                        colon cancers.</p>
+                                                        <p>Kale, like other members of the Brassica family, contains
+                                                            health-promoting phytochemicals, <b>sulforaphane and
+                                                            indole-3-carbinol</b> that appear to protect against prostate and
+                                                            colon cancers.</p>
 
-                                                    <p><b>Di-indolyl-methane</b> (DIM), a metabolite of <i>indole-3-carbinol</i> is an
-                                                        effective immune modulator, anti- bacterial and anti-viral agent
-                                                        through its action of potentiating "Interferon-Gamma"
-                                                        receptors.</p>
+                                                        <p><b>Di-indolyl-methane</b> (DIM), a metabolite of <i>indole-3-carbinol</i> is an
+                                                            effective immune modulator, anti- bacterial and anti-viral agent
+                                                            through its action of potentiating "Interferon-Gamma"
+                                                            receptors.</p>
 
-                                                    <p>Borecole is very rich source of <b>β-carotene, lutein</b> and
-                                                        <b>zea-xanthin</b>. These flavonoids have strong anti- oxidant and
-                                                        anti-cancer activities. Beta-carotene is converted to vitamin A
-                                                        in the body.</p>
+                                                        <p>Borecole is very rich source of <b>β-carotene, lutein</b> and
+                                                            <b>zea-xanthin</b>. These flavonoids have strong anti- oxidant and
+                                                            anti-cancer activities. Beta-carotene is converted to vitamin A
+                                                            in the body.</p>
 
-                                                    <p><b>Zea-xanthin</b>, an important dietary carotenoid, is selectively
-                                                        absorbed into the retinal macula lutea in the eyes where it is
-                                                        thought to provide antioxidant and protective light-filtering
-                                                        functions. Thus, it helps prevent retinal detachment and offer
-                                                        protection against "age-related macular degeneration related
-                                                        macular degeneration disease" (ARMD) in the elderly.</p>
+                                                        <p><b>Zea-xanthin</b>, an important dietary carotenoid, is selectively
+                                                            absorbed into the retinal macula lutea in the eyes where it is
+                                                            thought to provide antioxidant and protective light-filtering
+                                                            functions. Thus, it helps prevent retinal detachment and offer
+                                                            protection against "age-related macular degeneration related
+                                                            macular degeneration disease" (ARMD) in the elderly.</p>
 
-                                                    <p>It is very rich in <b>vitamin A</b>, 100 g leaves provide <b>512% of RDA</b>.
-                                                        Vitamin A is required for maintaining healthy mucus membranes
-                                                        and skin and is essential for vision. Foods rich in this vitamin
-                                                        are known to offer protection against lung and oral cavity
-                                                        cancers.</p>
+                                                        <p>It is very rich in <b>vitamin A</b>, 100 g leaves provide <b>512% of RDA</b>.
+                                                            Vitamin A is required for maintaining healthy mucus membranes
+                                                            and skin and is essential for vision. Foods rich in this vitamin
+                                                            are known to offer protection against lung and oral cavity
+                                                            cancers.</p>
 
-                                                    <p>It is one of the excellent vegetable sources for <b>vitamin-K</b>; 100 g
-                                                        provides about 700% of recommended intake. Vitamin K has
-                                                        potential role bone health by promoting osteotrophic (bone
-                                                        formation and strengthening) activity. Adequate vitamin-K levels
-                                                        in the diet help limiting neuronal damage in the brain; thus,
-                                                        has established role in the treatment of patients suffering from
-                                                        <b>Alzheimer's disease</b>.</p>
+                                                        <p>It is one of the excellent vegetable sources for <b>vitamin-K</b>; 100 g
+                                                            provides about 700% of recommended intake. Vitamin K has
+                                                            potential role bone health by promoting osteotrophic (bone
+                                                            formation and strengthening) activity. Adequate vitamin-K levels
+                                                            in the diet help limiting neuronal damage in the brain; thus,
+                                                            has established role in the treatment of patients suffering from
+                                                            <b>Alzheimer's disease</b>.</p>
 
-                                                    <p>100 g of fresh leaves contain <b>120 mg or 200% of daily-recommended
-                                                        levels of vitamin C</b>. Scottish curly leaf variety yet has more of
-                                                        this vitamin, 130 mg/100g. Vitamin C is a powerful antioxidant,
-                                                        which helps the body develop resistance against infectious
-                                                        agents and scavenge harmful oxygen-free radicals.</p>
+                                                        <p>100 g of fresh leaves contain <b>120 mg or 200% of daily-recommended
+                                                            levels of vitamin C</b>. Scottish curly leaf variety yet has more of
+                                                            this vitamin, 130 mg/100g. Vitamin C is a powerful antioxidant,
+                                                            which helps the body develop resistance against infectious
+                                                            agents and scavenge harmful oxygen-free radicals.</p>
 
-                                                    <p>This leafy vegetable is notably good in many B-complex groups of
-                                                        vitamins such as niacin, <b>vitamin B-6</b> (pyridoxine), thiamin,
-                                                        pantothenic acid, etc., that are essential for substrate
-                                                        metabolism in the body.</p>
+                                                        <p>This leafy vegetable is notably good in many B-complex groups of
+                                                            vitamins such as niacin, <b>vitamin B-6</b> (pyridoxine), thiamin,
+                                                            pantothenic acid, etc., that are essential for substrate
+                                                            metabolism in the body.</p>
 
-                                                    <p>It is also rich source of minerals like copper, calcium, sodium,
-                                                        potassium, iron, manganese, and phosphorus. Potassium is an
-                                                        important component of cell and body fluids that helps
-                                                        controlling heart rate and blood pressure by countering effects
-                                                        of sodium. Manganese is used by the body as a co-factor for the
-                                                        antioxidant enzyme, <i>superoxide dismutase</i>. <b>Iron</b> is required for
-                                                        cellular oxidation and red blood cell formation.</p>
+                                                        <p>It is also rich source of minerals like copper, calcium, sodium,
+                                                            potassium, iron, manganese, and phosphorus. Potassium is an
+                                                            important component of cell and body fluids that helps
+                                                            controlling heart rate and blood pressure by countering effects
+                                                            of sodium. Manganese is used by the body as a co-factor for the
+                                                            antioxidant enzyme, <i>superoxide dismutase</i>. <b>Iron</b> is required for
+                                                            cellular oxidation and red blood cell formation.</p>
 
-                                                    <blockquote><p>Kale provides rich nutrition ingredients that offer
-                                                        protection from vitamin A deficiency, osteoporosis, iron-
-                                                        deficiency anemia, and believed to protect from cardiovascular
-                                                        diseases and colon and prostate cancers.</p></blockquote>
+                                                        <blockquote><p>Kale provides rich nutrition ingredients that offer
+                                                            protection from vitamin A deficiency, osteoporosis, iron-
+                                                            deficiency anemia, and believed to protect from cardiovascular
+                                                            diseases and colon and prostate cancers.</p></blockquote>
 
-                                                    <h3 class="section-title">3. Selection and Storage</h3>
+                                                        <h3 class="section-title">3. Selection and Storage</h3>
 
-                                                    <p>Kale is available at its best during winter months from November
-                                                        until March. Exposure of crop to light frost, in fact, enhances
-                                                        its eating quality. While harvesting, individual lower leaves
-                                                        may be picked either progressively as the main stem elongates or
-                                                        the whole plant is cut at the stem and packed in bundles. In the
-                                                        store, buy fresh green leaves featuring crispy, crunchy,
-                                                        brilliant dark blue-green color.</p>
+                                                        <p>Kale is available at its best during winter months from November
+                                                            until March. Exposure of crop to light frost, in fact, enhances
+                                                            its eating quality. While harvesting, individual lower leaves
+                                                            may be picked either progressively as the main stem elongates or
+                                                            the whole plant is cut at the stem and packed in bundles. In the
+                                                            store, buy fresh green leaves featuring crispy, crunchy,
+                                                            brilliant dark blue-green color.</p>
 
-                                                    <p>Borecole, like chard, is an extremely perishable leafy vegetable,
-                                                        so should be used quickly once harvested. If at all to be stored
-                                                        inside the refrigerator set its temperature below 35 degree F
-                                                        and high humidity level to maintain vitality.</p>
+                                                        <p>Borecole, like chard, is an extremely perishable leafy vegetable,
+                                                            so should be used quickly once harvested. If at all to be stored
+                                                            inside the refrigerator set its temperature below 35 degree F
+                                                            and high humidity level to maintain vitality.</p>
 
-                                                    <h3 class="section-title">4. Culinary Uses</h3>
+                                                        <h3 class="section-title">4. Culinary Uses</h3>
 
-                                                    <p>As in spinach, borecole should be washed thoroughly in clean
-                                                        running water and swished in saline water for about 10-15
-                                                        minutes in order to remove soil, dirt and any
-                                                        fungicide/insecticide residues.</p>
+                                                        <p>As in spinach, borecole should be washed thoroughly in clean
+                                                            running water and swished in saline water for about 10-15
+                                                            minutes in order to remove soil, dirt and any
+                                                            fungicide/insecticide residues.</p>
 
-                                                    <p>Just before cooking, remove tough stems, and separate wilted
-                                                        leaves from healthy ones. The leaves are generally blanched
-                                                        before use in cooking.</p>
-                                                    <figure>
-                                                        <img src='../../resources/images/food-index/kale/kale_chip_1000x903.jpg'
-                                                             alt='kale salad'/>
-                                                        <figcaption class="img-caption">Kale chips is the healthy snack you are looking for.
-                                                        </figcaption>
-                                                    </figure>
+                                                        <p>Just before cooking, remove tough stems, and separate wilted
+                                                            leaves from healthy ones. The leaves are generally blanched
+                                                            before use in cooking.</p>
+                                                        <figure>
+                                                            <img src='../../resources/images/food-index/kale/kale_chip_1000x903.jpg'
+                                                                 alt='kale salad'/>
+                                                            <figcaption class="img-caption">Kale chips is the healthy snack you are looking for.
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>Here are some serving tips:</p>
-                                                    <ul>
-                                                        <li>Fresh young crispy borecole can be used raw in salads.</li>
-                                                        <li>Mature leaves and stalks are typically cooked or Sautéed.
-                                                        </li>
-                                                        <li>Tuscan kale leaves are popular winter staples in all over
-                                                            Mediterranean, used in soups (ribollita toscana), stews,
-                                                            salads, pizza, and pasta.
-                                                        </li>
-                                                        <li>It is also used in a variety of traditional kale recipes
-                                                            with potatoes, green beans, poultry, and meat.
-                                                        </li>
-                                                        <li>In Japan, fresh kale juice is quite popular.</li>
-                                                    </ul>
+                                                        <p>Here are some serving tips:</p>
+                                                        <ul>
+                                                            <li>Fresh young crispy borecole can be used raw in salads.</li>
+                                                            <li>Mature leaves and stalks are typically cooked or Sautéed.
+                                                            </li>
+                                                            <li>Tuscan kale leaves are popular winter staples in all over
+                                                                Mediterranean, used in soups (ribollita toscana), stews,
+                                                                salads, pizza, and pasta.
+                                                            </li>
+                                                            <li>It is also used in a variety of traditional kale recipes
+                                                                with potatoes, green beans, poultry, and meat.
+                                                            </li>
+                                                            <li>In Japan, fresh kale juice is quite popular.</li>
+                                                        </ul>
 
-                                                    <h3 class="section-title">5. Safety Profile</h3>
+                                                        <h3 class="section-title">5. Safety Profile</h3>
 
-                                                    <p>Because of its high vitamin K content, patients taking
-                                                        anti-coagulants such as warfarin are encouraged to avoid kale
-                                                        since it increases the vitamin K concentration in the blood,
-                                                        which is what the drugs are attempting to lower. This
-                                                        effectively raises the dose of the drug and causes toxicity.</p>
+                                                        <p>Because of its high vitamin K content, patients taking
+                                                            anti-coagulants such as warfarin are encouraged to avoid kale
+                                                            since it increases the vitamin K concentration in the blood,
+                                                            which is what the drugs are attempting to lower. This
+                                                            effectively raises the dose of the drug and causes toxicity.</p>
 
-                                                    <p>Its leaves contain 0.2 g/100 g of oxalic acid, a value far less
-                                                        than some other comparable greens such as spinach (0.97 g/100)
-                                                        and purslane (1.31 g/100 g). It may be used; however, with
-                                                        caution, even in individuals
-                                                        with known oxalate urinary tract stones. Adequate intake of
-                                                        water is advised to maintain normal urine output.</p>
+                                                        <p>Its leaves contain 0.2 g/100 g of oxalic acid, a value far less
+                                                            than some other comparable greens such as spinach (0.97 g/100)
+                                                            and purslane (1.31 g/100 g). It may be used; however, with
+                                                            caution, even in individuals
+                                                            with known oxalate urinary tract stones. Adequate intake of
+                                                            water is advised to maintain normal urine output.</p>
 
-                                                    <h3 class="section-title">6. In Depth Analysis of Nutrients</h3>
-                                                    <p>Kale (<i>Brassica oleracea. Acephala group</i>), fresh, raw leaves,<br/>
-                                                        Nutritional value per 100 g.<br/>
-                                                        Source: <b>USDA National Nutrient data base</b>
-                                                    </p>
+                                                        <h3 class="section-title">6. In Depth Analysis of Nutrients</h3>
+                                                        <p>Kale (<i>Brassica oleracea. Acephala group</i>), fresh, raw leaves,<br/>
+                                                            Nutritional value per 100 g.<br/>
+                                                            Source: <b>USDA National Nutrient data base</b>
+                                                        </p>
 
-                                                    <table class="nutrient-table">
-                                                        <thead>
-                                                            <tr><td width="40%">Principle</td><td width="30%">Nutrient Value</td><td width="30%">Percentage of RDA</td></tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr><td>Energy</td><td>50 Kcal</td><td>2.5%</td></tr>
-                                                            <tr class="even-row"><td>Carbohydrates</td><td>10.01 g</td><td>8%</td></tr>
-                                                            <tr><td>Protein</td><td>3.30 g</td><td>6%</td></tr>
-                                                            <tr class="even-row"><td>Total Fat</td><td>0.70 g</td><td>3%</td></tr>
-                                                            <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
-                                                            <tr class="even-row"><td>Dietary Fiber</td><td>2.0 g</td><td>5%</td></tr>
-                                                            <tr class="section"><td colspan="3">Vitamins</td></tr>
-                                                            <tr><td>Folates (B9)</td><td>29 μg</td><td>7%</td></tr>
-                                                            <tr class="even-row"><td>Niacin (B3)</td><td>1.000 mg</td><td>6%</td></tr>
-                                                            <tr><td>Pantothenic acid (B5)</td><td>0.091 mg</td><td>1.5%</td></tr>
-                                                            <tr class="even-row"><td>Pyridoxine (B6)</td><td>0.271 mg</td><td>21%</td></tr>
-                                                            <tr><td>Riboflavin (B2)</td><td>0.130 mg</td><td>10%</td></tr>
-                                                            <tr class="even-row"><td>Thiamin (B1)</td><td>0.110 mg</td><td>9%</td></tr>
-                                                            <tr><td>Vitamin A</td><td>15376 IU</td><td>512%</td></tr>
-                                                            <tr class="even-row"><td>Vitamin C</td><td>120 mg</td><td>200%</td></tr>
-                                                            <tr><td>Vitamin K</td><td>817 μg</td><td>681%</td></tr>
-                                                            <tr class="section"><td colspan="3">Electrolytes</td></tr>
-                                                            <tr><td>Sodium</td><td>43 mg</td><td>3%</td></tr>
-                                                            <tr class="even-row"><td>Potassium</td><td>447 mg</td><td>9.5%</td></tr>
-                                                            <tr class="section"><td colspan="3">Minerals</td></tr>
-                                                            <tr><td>Calcium</td><td>135 mg</td><td>13.5%</td></tr>
-                                                            <tr class="even-row"><td>Copper</td><td>0.290 mg</td><td>32%</td></tr>
-                                                            <tr><td>Iron</td><td>1.70 mg</td><td>21%</td></tr>
-                                                            <tr class="even-row"><td>Magnesium</td><td>34 mg</td><td>8.5%</td></tr>
-                                                            <tr><td>Manganese</td><td>0.774 mg</td><td>34%</td></tr>
-                                                            <tr class="even-row"><td>Phosphorus</td><td>56 mg</td><td>8%</td></tr>
-                                                            <tr><td>Selenium</td><td>0.9 μg</td><td>1.5%</td></tr>
-                                                            <tr class="even-row"><td>Zinc</td><td>0.44 mg</td><td>4%</td></tr>
-                                                            <tr class="section"><td colspan="3">Phyto-nutrients</td></tr>
-                                                            <tr><td>Carotene-ß</td><td>9226 μg</td><td>--</td></tr>
-                                                            <tr class="even-row"><td>Crypto-xanthin-ß</td><td>0 μg</td><td>--</td></tr>
-                                                            <tr><td>Lutein-zeaxanthin</td><td>39550 μg</td><td>--</td></tr>
-                                                        </tbody>
-                                                    </table>
+                                                        <table class="nutrient-table">
+                                                            <thead>
+                                                                <tr><td width="40%">Principle</td><td width="30%">Nutrient Value</td><td width="30%">Percentage of RDA</td></tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr><td>Energy</td><td>50 Kcal</td><td>2.5%</td></tr>
+                                                                <tr class="even-row"><td>Carbohydrates</td><td>10.01 g</td><td>8%</td></tr>
+                                                                <tr><td>Protein</td><td>3.30 g</td><td>6%</td></tr>
+                                                                <tr class="even-row"><td>Total Fat</td><td>0.70 g</td><td>3%</td></tr>
+                                                                <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
+                                                                <tr class="even-row"><td>Dietary Fiber</td><td>2.0 g</td><td>5%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Vitamins</td></tr>
+                                                                <tr><td>Folates (B9)</td><td>29 μg</td><td>7%</td></tr>
+                                                                <tr class="even-row"><td>Niacin (B3)</td><td>1.000 mg</td><td>6%</td></tr>
+                                                                <tr><td>Pantothenic acid (B5)</td><td>0.091 mg</td><td>1.5%</td></tr>
+                                                                <tr class="even-row"><td>Pyridoxine (B6)</td><td>0.271 mg</td><td>21%</td></tr>
+                                                                <tr><td>Riboflavin (B2)</td><td>0.130 mg</td><td>10%</td></tr>
+                                                                <tr class="even-row"><td>Thiamin (B1)</td><td>0.110 mg</td><td>9%</td></tr>
+                                                                <tr><td>Vitamin A</td><td>15376 IU</td><td>512%</td></tr>
+                                                                <tr class="even-row"><td>Vitamin C</td><td>120 mg</td><td>200%</td></tr>
+                                                                <tr><td>Vitamin K</td><td>817 μg</td><td>681%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Electrolytes</td></tr>
+                                                                <tr><td>Sodium</td><td>43 mg</td><td>3%</td></tr>
+                                                                <tr class="even-row"><td>Potassium</td><td>447 mg</td><td>9.5%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Minerals</td></tr>
+                                                                <tr><td>Calcium</td><td>135 mg</td><td>13.5%</td></tr>
+                                                                <tr class="even-row"><td>Copper</td><td>0.290 mg</td><td>32%</td></tr>
+                                                                <tr><td>Iron</td><td>1.70 mg</td><td>21%</td></tr>
+                                                                <tr class="even-row"><td>Magnesium</td><td>34 mg</td><td>8.5%</td></tr>
+                                                                <tr><td>Manganese</td><td>0.774 mg</td><td>34%</td></tr>
+                                                                <tr class="even-row"><td>Phosphorus</td><td>56 mg</td><td>8%</td></tr>
+                                                                <tr><td>Selenium</td><td>0.9 μg</td><td>1.5%</td></tr>
+                                                                <tr class="even-row"><td>Zinc</td><td>0.44 mg</td><td>4%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Phyto-nutrients</td></tr>
+                                                                <tr><td>Carotene-ß</td><td>9226 μg</td><td>--</td></tr>
+                                                                <tr class="even-row"><td>Crypto-xanthin-ß</td><td>0 μg</td><td>--</td></tr>
+                                                                <tr><td>Lutein-zeaxanthin</td><td>39550 μg</td><td>--</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="vc_row wpb_row vc_row-fluid hidden">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
+                                    <div class="vc_row wpb_row vc_row-fluid hidden">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <div id="footer-spacer" style="height: 395px;"></div>
     <footer id="footer" class="text-center">
         <a href="../menu.html#" class="to-the-top">

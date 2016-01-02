@@ -42,6 +42,8 @@
           href='../../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet'
           href='../../css/wowbox_customize.css' type='text/css' media='all'/>
+    <link rel='stylesheet'
+          href='../../css/food_index_article.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
     <script type='text/javascript'
@@ -55,7 +57,8 @@
         margin: 0 !important;
     }</style>
 </head>
-<body class="page page-id-401 page-template page-template-contact-php yo-anim-enabled no-intro show-nav wpb-js-composer js-comp-ver-4.3.2 vc_responsive">
+<body class="page page-template show-nav">
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -64,37 +67,24 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=191781424203643";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="content-wrapper">
     <nav id="main-navbar" class="hidden-xs hidden-sm">
         <div class="nav hidden-xs">
-            <div class="main-reorder pull-right">
-                <a href="../contact.html#">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
             <div class="logo pull-left">
                 <a href="../index.html">
-                    <figure class="light-logo">
-                        <span class="spacer"></span>
-                        <img src="../../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
-                    <figure class="dark-logo">
-                        <span class="spacer"></span>
-                        <img src="../../resources/images/logo/logo_200x145.png" class=""
-                             alt="WOWBOX | Fresh Salad for Your Healthy Life"/>
-                    </figure>
+                    <img src="../../resources/images/logo/logo_200x200.png" width="100px" height="100px">
                 </a>
             </div>
             <div class="main-nav bg-opacity-100">
-                <span class="glf-button" id="glf-restaurant-order-online" style="margin: 20px 0 0; padding: 6px 14px; border-radius: 15px; font-family: 'Helvetica', sans-serif; float: left;">Order Online</span>
-                <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
                 <ul id="menu-main-menu" class="menu hidden-xs hidden-sm">
+                    <li>
+                        <span class="glf-button" id="glf-restaurant-order-online" style="margin: 14px 0 0; padding: 0 8px; font-size: 14px; border-radius: 2px;">Order Online</span>
+                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
+                    </li>
                     <li id="menu-item-2"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2"><a
+                        class="menu-item menu-item-2"><a
                             title="Tasty Menu" href="../menu.html">Ready Menu</a>
-
                         <div class="subnav">
                             <ul class="subnav-wrapper">
                                 <li><a href="../menu.html#category-premium">Premium Salads</a>
@@ -134,35 +124,10 @@
                     </li>
                     <li id="menu-item-3" class="menu-item menu-item-3"><a href="../menu-cyo.html">Create Your Salad</a></li>
                     <li id="menu-item-7" class="menu-item menu-item-7"><a href="../delivery.html">Delivery</a></li>
-                    <li id="menu-item-8" class="menu-item menu-item-8"><a>Resources</a>
-                        <div class="subnav">
-                            <ul class="subnav-wrapper">
-                                <li><a href="../nutrition.html">Blog</a>
-                                    <div><a href="../nutrition.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                                <li><a href="../food-index.html">Food Index</a>
-                                    <div><a href="../food-index.html" class="menu-img" style=""></a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li id="menu-item-4"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4"><a
-                            href="../aboutus.html">About Us</a></li>
-                    <li id="menu-item-5"
-                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5">
-                        <a href="../contact.html">Contact</a>
-                    </li>
-                    <li id="menu-item-1"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-1 menu-item-1">
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li id="menu-item-6"
-                        class="menu-item menu-item-type-post_type menu-item-object-page page-item-6 menu-item-has-children menu-item-6">
-                        <a href="../../index.html">Tiếng Việt</a>
-                    </li>
+                    <li id="menu-item-8" class="menu-item menu-item-8"><a href="../nutrition.html">Nutrition</a></li>
+                    <li id="menu-item-4" class="menu-item menu-item-4"><a href="../aboutus.html">About Us</a></li>
+                    <li id="menu-item-1" class="menu-item menu-item-1"><a href="../index.html">Home</a></li>
+                    <li id="menu-item-6" class="menu-item menu-item-6"><a href="../../index.html">VN</a></li>
                 </ul>
             </div>
         </div>
@@ -211,305 +176,307 @@
         </div>
     </div>
 
-    <section id="post" class="section-scroll main-section blog">
-        <div class="container-fluid">
-            <div class="row">
-                <article class="post">
-                    <a class="img-post">
-                        <figure>
-                            <img width="1000" height="600" src="../../resources/images/food-index/almond/almond_1000x600.jpg"
-                                 class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
-                    </a>
+    <div id="web-content">
+        <section id="post" class="section-scroll main-section blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <article class="post">
+                        <a class="img-post">
+                            <figure>
+                                <img width="1000" height="600" src="../../resources/images/food-index/almond/almond_1000x600.jpg"
+                                     class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
+                        </a>
 
-                    <div class="post-content ">
-                        <div class="post-wrapper">
-                            <div class="post-wrapper-inner">
-                                <span class="date">
-                                    <span class="posted-on">
-                                        <span>
-                                            <time class="entry-date published" datetime="2015-11-07T00:00:00+07:00">
-                                                07 November, 2015
-                                            </time>
+                        <div class="post-content ">
+                            <div class="post-wrapper">
+                                <div class="post-wrapper-inner">
+                                    <span class="date">
+                                        <span class="posted-on">
+                                            <span>
+                                                <time class="entry-date published" datetime="2015-11-07T00:00:00+07:00">
+                                                    07 November, 2015
+                                                </time>
+                                            </span>
                                         </span>
                                     </span>
-                                </span>
 
-                                <h1 class="entry-title">Almond</h1>
-                                <ul class="post_details">
-                                    <li><span>WowBox</span></li>
-                                </ul>
-                                <div class="social-share">
-                                    <ul>
-                                        <li>
-                                            <div class="fb-share-button" data-href="http://wowbox.vn/en/food_index/almond.html" data-layout="button"></div>
-                                        </li>
+                                    <h1 class="entry-title">Almond</h1>
+                                    <ul class="post_details">
+                                        <li><span>WowBox</span></li>
                                     </ul>
+                                    <div class="social-share">
+                                        <ul>
+                                            <li>
+                                                <div class="fb-share-button" data-href="http://wowbox.vn/en/food_index/almond.html" data-layout="button"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <div class="container">
-                    <div class="row">
-                        <div class="post-text col-md-8 col-md-offset-2">
-                            <article>
-                                <div class="fixed-table hidden-xs hidden-sm" style="">
-                                    <table class="nutrient-summary">
-                                        <thead>
-                                        <tr><td colspan="3" class="serving-size">100 g of Almond</td></tr>
-                                        <tr><td>Principle</td><td>Value</td><td>RDA %</td></tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr><td>Energy</td><td>575 Kcal</td><td>29%</td></tr>
-                                        <tr class="even-row"><td>Carbs</td><td>21.67 g</td><td>16%</td></tr>
-                                        <tr><td>Protein</td><td>21.22 g</td><td>38%</td></tr>
-                                        <tr class="even-row"><td>Total Fat</td><td>49.42 g</td><td>165%</td></tr>
-                                        <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
-                                        <tr class="even-row"><td>Dietary Fiber</td><td>12.20 g</td><td>30%</td></tr>
-                                        <tr class="section"><td colspan="3">Vitamins</td></tr>
-                                        <tr><td>Vitamin B9</td><td>50 μg</td><td>12.5%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B3</td><td>3.385 mg</td><td>21%</td></tr>
-                                        <tr><td>Vitamin B5</td><td>0.47 mg</td><td>9%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B6</td><td>0.143 mg</td><td>11%</td></tr>
-                                        <tr><td>Vitamin B2</td><td>1.014 mg</td><td>78%</td></tr>
-                                        <tr class="even-row"><td>Vitamin B1</td><td>0.211 mg</td><td>16%</td></tr>
-                                        <tr><td>Vitamin A</td><td>1 IU</td><td>0%</td></tr>
-                                        <tr class="even-row"><td>Vitamin C</td><td>0 mg</td><td>0%</td></tr>
-                                        <tr><td>Vitamin E</td><td>26 mg</td><td>173%</td></tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="vc_row wpb_row vc_row-fluid">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p><span class="dropcap">T</span><b><strong>he almond is a species
-                                                        of tree native to the Middle East and South Asia. "Almond" is
-                                                        also the name of the edible and widely cultivated seed of this
-                                                        tree.</strong></b></p>
+                    </article>
+                    <div class="container">
+                        <div class="row">
+                            <div class="post-text col-md-8 col-md-offset-2">
+                                <article>
+                                    <div class="fixed-table hidden-xs hidden-sm" style="">
+                                        <table class="nutrient-summary">
+                                            <thead>
+                                            <tr><td colspan="3" class="serving-size">100 g of Almond</td></tr>
+                                            <tr><td>Principle</td><td>Value</td><td>RDA %</td></tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr><td>Energy</td><td>575 Kcal</td><td>29%</td></tr>
+                                            <tr class="even-row"><td>Carbs</td><td>21.67 g</td><td>16%</td></tr>
+                                            <tr><td>Protein</td><td>21.22 g</td><td>38%</td></tr>
+                                            <tr class="even-row"><td>Total Fat</td><td>49.42 g</td><td>165%</td></tr>
+                                            <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
+                                            <tr class="even-row"><td>Dietary Fiber</td><td>12.20 g</td><td>30%</td></tr>
+                                            <tr class="table-section"><td colspan="3">Vitamins</td></tr>
+                                            <tr><td>Vitamin B9</td><td>50 μg</td><td>12.5%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B3</td><td>3.385 mg</td><td>21%</td></tr>
+                                            <tr><td>Vitamin B5</td><td>0.47 mg</td><td>9%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B6</td><td>0.143 mg</td><td>11%</td></tr>
+                                            <tr><td>Vitamin B2</td><td>1.014 mg</td><td>78%</td></tr>
+                                            <tr class="even-row"><td>Vitamin B1</td><td>0.211 mg</td><td>16%</td></tr>
+                                            <tr><td>Vitamin A</td><td>1 IU</td><td>0%</td></tr>
+                                            <tr class="even-row"><td>Vitamin C</td><td>0 mg</td><td>0%</td></tr>
+                                            <tr><td>Vitamin E</td><td>26 mg</td><td>173%</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p><span class="dropcap">T</span><b><strong>he almond is a species
+                                                            of tree native to the Middle East and South Asia. "Almond" is
+                                                            also the name of the edible and widely cultivated seed of this
+                                                            tree.</strong></b></p>
 
-                                                    <h3 class="section-title">1. Almonds Nutrition Facts</h3>
+                                                        <h3 class="section-title">1. Almonds Nutrition Facts</h3>
 
-                                                    <p>Wonderfully delicious, almonds have long been revered as an
-                                                        epitome of wellness and health. The kernels are among the
-                                                        richest sources of health-benefiting nutrients essential for
-                                                        optimum health.</p>
+                                                        <p>Wonderfully delicious, almonds have long been revered as an
+                                                            epitome of wellness and health. The kernels are among the
+                                                            richest sources of health-benefiting nutrients essential for
+                                                            optimum health.</p>
 
-                                                    <p>Botanically, they are the fruits obtained from medium size tree
-                                                        belonging to the family of Rosaceae, in the genus: Prunus. The
-                                                        plant is a deciduous tree, probably originated mineral-rich
-                                                        West-Asian mountain ranges that provide fertile conditions
-                                                        favorable for their growth. In recent years, it is being
-                                                        cultivated in many regions of the world, including the USA, as
-                                                        an important commercial crop.</p>
+                                                        <p>Botanically, they are the fruits obtained from medium size tree
+                                                            belonging to the family of Rosaceae, in the genus: Prunus. The
+                                                            plant is a deciduous tree, probably originated mineral-rich
+                                                            West-Asian mountain ranges that provide fertile conditions
+                                                            favorable for their growth. In recent years, it is being
+                                                            cultivated in many regions of the world, including the USA, as
+                                                            an important commercial crop.</p>
 
-                                                    <p>Scientific name: <b><i>Prunus dulcis</i></b>.</p>
+                                                        <p>Scientific name: <b><i>Prunus dulcis</i></b>.</p>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/food-index/almond/almond_tree_1000x665.jpg'
-                                                             alt='almond tree'/>
-                                                        <figcaption class="img-caption">Almond trees are widely cultivated around the world nowadays
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/food-index/almond/almond_tree_1000x665.jpg'
+                                                                 alt='almond tree'/>
+                                                            <figcaption class="img-caption">Almond trees are widely cultivated around the world nowadays
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>During each spring season, an almond tree bears pinkish-white
-                                                        flowers that subsequently develop into fruits by autumn. In
-                                                        structure, the fruit is a "drupe" with centrally placed edible
-                                                        "almond nut" (kernel) surrounded by a hard shell. Almond kernel
-                                                        features brown outer skin, oval to conical in shape, measures
-                                                        about 2 cm long and 1 cm wide, and weigh about 1 to 1.5 g.</p>
+                                                        <p>During each spring season, an almond tree bears pinkish-white
+                                                            flowers that subsequently develop into fruits by autumn. In
+                                                            structure, the fruit is a "drupe" with centrally placed edible
+                                                            "almond nut" (kernel) surrounded by a hard shell. Almond kernel
+                                                            features brown outer skin, oval to conical in shape, measures
+                                                            about 2 cm long and 1 cm wide, and weigh about 1 to 1.5 g.</p>
 
-                                                    <h3 class="section-title">2. Health Benefits of Almonds</h3>
+                                                        <h3 class="section-title">2. Health Benefits of Almonds</h3>
 
-                                                    <p>Almond nuts are rich sources of vitamins, and minerals and packed
-                                                        with numerous health promoting phyto-chemicals. These nuts
-                                                        compose of well-balanced food principles that are essential for
-                                                        optimum health and wellness.</p>
+                                                        <p>Almond nuts are rich sources of vitamins, and minerals and packed
+                                                            with numerous health promoting phyto-chemicals. These nuts
+                                                            compose of well-balanced food principles that are essential for
+                                                            optimum health and wellness.</p>
 
-                                                    <p>Almonds are one of the complete sources of energy as well as
-                                                        nutrients. The nuts, especially, are rich in mono-unsaturated
-                                                        fatty acids like <i>oleic</i>, and <i>palmitoleic</i> acids that
-                                                        help in lowering LDL or "bad cholesterol" and increasing HDL or
-                                                        "good cholesterol" in the human body. Research studies suggest
-                                                        that Mediterranean diet, which is excellent in monounsaturated
-                                                        fatty acids, help to prevent coronary artery disease and strokes
-                                                        by favoring healthy blood lipid profile.</p>
+                                                        <p>Almonds are one of the complete sources of energy as well as
+                                                            nutrients. The nuts, especially, are rich in mono-unsaturated
+                                                            fatty acids like <i>oleic</i>, and <i>palmitoleic</i> acids that
+                                                            help in lowering LDL or "bad cholesterol" and increasing HDL or
+                                                            "good cholesterol" in the human body. Research studies suggest
+                                                            that Mediterranean diet, which is excellent in monounsaturated
+                                                            fatty acids, help to prevent coronary artery disease and strokes
+                                                            by favoring healthy blood lipid profile.</p>
 
-                                                    <p>The nuts are an excellent source of <b>vitamin E</b>; hold about
-                                                        25 g per 100 g (about 170% of RDA). Vitamin E is a powerful lipid
-                                                        soluble antioxidant, required for maintaining cell membrane
-                                                        integrity of mucus membranes and skin by protecting it from
-                                                        harmful effects of oxygen-free radicals.</p>
+                                                        <p>The nuts are an excellent source of <b>vitamin E</b>; hold about
+                                                            25 g per 100 g (about 170% of RDA). Vitamin E is a powerful lipid
+                                                            soluble antioxidant, required for maintaining cell membrane
+                                                            integrity of mucus membranes and skin by protecting it from
+                                                            harmful effects of oxygen-free radicals.</p>
 
-                                                    <p>Almonds are free from gluten protein, and for the same reason,
-                                                        they are one of the popular ingredients in the preparation of
-                                                        gluten-free food formulas. Such formula preparations are, in
-                                                        fact, healthy alternatives in people with wheat food allergy,
-                                                        and celiac disease.</p>
+                                                        <p>Almonds are free from gluten protein, and for the same reason,
+                                                            they are one of the popular ingredients in the preparation of
+                                                            gluten-free food formulas. Such formula preparations are, in
+                                                            fact, healthy alternatives in people with wheat food allergy,
+                                                            and celiac disease.</p>
 
-                                                    <p>The nuts are packed with many important B-complex groups of
-                                                        vitamins such as riboflavin, niacin, thiamin, pantothenic acid,
-                                                        vitamin B-6, and folates. Altogether, these vitamins work as
-                                                        co-factors for enzymes during cellular substrate metabolism
-                                                        inside the human body.</p>
+                                                        <p>The nuts are packed with many important B-complex groups of
+                                                            vitamins such as riboflavin, niacin, thiamin, pantothenic acid,
+                                                            vitamin B-6, and folates. Altogether, these vitamins work as
+                                                            co-factors for enzymes during cellular substrate metabolism
+                                                            inside the human body.</p>
 
-                                                    <p>Furthermore, almonds are also an incredible source of minerals
-                                                        such as manganese, potassium, calcium, iron, magnesium, zinc,
-                                                        and selenium.</p>
+                                                        <p>Furthermore, almonds are also an incredible source of minerals
+                                                            such as manganese, potassium, calcium, iron, magnesium, zinc,
+                                                            and selenium.</p>
 
-                                                    <p>Almond oil, extracted from the nuts, can be employed as an
-                                                        emollient. When applied regularly, it helps keep skin well
-                                                        protected from dryness. Additionally, the oil is used in cooking
-                                                        in Iran, and Turkey. It is also used as “carrier or base oil” in
-                                                        various traditional medicines, in aromatherapy, pharmaceutical,
-                                                        and cosmetic industries.</p>
+                                                        <p>Almond oil, extracted from the nuts, can be employed as an
+                                                            emollient. When applied regularly, it helps keep skin well
+                                                            protected from dryness. Additionally, the oil is used in cooking
+                                                            in Iran, and Turkey. It is also used as “carrier or base oil” in
+                                                            various traditional medicines, in aromatherapy, pharmaceutical,
+                                                            and cosmetic industries.</p>
 
-                                                    <blockquote><p>A handful of almonds a day provides much of
-                                                        recommended levels of minerals, vitamins, and protein. Besides,
-                                                        almond oil extracted from the nuts has been used in cooking, and
-                                                        medicine.</p></blockquote>
+                                                        <blockquote><p>A handful of almonds a day provides much of
+                                                            recommended levels of minerals, vitamins, and protein. Besides,
+                                                            almond oil extracted from the nuts has been used in cooking, and
+                                                            medicine.</p></blockquote>
 
-                                                    <h3 class="section-title">3. Selection and Storage</h3>
+                                                        <h3 class="section-title">3. Selection and Storage</h3>
 
-                                                    <p>Almonds can be available in the markets' year around. In the
-                                                        stores, however, different forms of nuts are displayed for sale
-                                                        such as shelled, un-shelled (with outer shell), salted,
-                                                        sweetened, or powdered (almond flour), etc. Try to buy
-                                                        completely shelled or unshelled raw nuts instead of processed
-                                                        ones.</p>
+                                                        <p>Almonds can be available in the markets' year around. In the
+                                                            stores, however, different forms of nuts are displayed for sale
+                                                            such as shelled, un-shelled (with outer shell), salted,
+                                                            sweetened, or powdered (almond flour), etc. Try to buy
+                                                            completely shelled or unshelled raw nuts instead of processed
+                                                            ones.</p>
 
-                                                    <p>While buying, look for kernels that feature bright brown color,
-                                                        compact and uniform in size, and feel heavy in hand. They should
-                                                        be free from cracks/cuts, mold, and spots, and rancid smell.</p>
+                                                        <p>While buying, look for kernels that feature bright brown color,
+                                                            compact and uniform in size, and feel heavy in hand. They should
+                                                            be free from cracks/cuts, mold, and spots, and rancid smell.</p>
 
-                                                    <p>Unshelled almonds can be placed in cool dry place for several
-                                                        months. However, shelled kernels should be kept inside an
-                                                        airtight container, and stored in the refrigerator to
-                                                        avoid them turn rancid.</p>
+                                                        <p>Unshelled almonds can be placed in cool dry place for several
+                                                            months. However, shelled kernels should be kept inside an
+                                                            airtight container, and stored in the refrigerator to
+                                                            avoid them turn rancid.</p>
 
-                                                    <h3 class="section-title">4. Culinary Uses</h3>
+                                                        <h3 class="section-title">4. Culinary Uses</h3>
 
-                                                    <p>Raw whole nuts are generally cut open at processing units using
-                                                        larger sheller machines. Smaller nut sheller equipment or hand
-                                                        held pliers usually are being employed for domestic
-                                                        purposes.</p>
+                                                        <p>Raw whole nuts are generally cut open at processing units using
+                                                            larger sheller machines. Smaller nut sheller equipment or hand
+                                                            held pliers usually are being employed for domestic
+                                                            purposes.</p>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/food-index/almond/almond_product_1000x1000.jpg'
-                                                             alt='almond tree'/>
-                                                        <figcaption class="img-caption">Almond nuts and its products are very popular
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/food-index/almond/almond_product_1000x1000.jpg'
+                                                                 alt='almond tree'/>
+                                                            <figcaption class="img-caption">Almond nuts and its products are very popular
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>Here are some serving tips:</p>
-                                                    <ul>
-                                                        <li>Almonds can be enjoyed either on their own, salted or
-                                                            sweetened.
-                                                        </li>
-                                                        <li>They are nutty yet pleasantly sweet in taste. Sweetened <i>almond
-                                                            milk</i> (Badam milk-shake) is a one of popular refreshing
-                                                            drink in Indian and other south Asian countries.
-                                                        </li>
-                                                        <li>They are one of the most sought after among nuts in various
-                                                            rice dishes, savory and sweet preparations in the
-                                                            Middle-East region.
-                                                        </li>
-                                                        <li>The nuts are often sprinkled over desserts, particularly
-                                                            sundaes and other ice cream based preparations.
-                                                        </li>
-                                                        <li>They are widely employed in the confectionery, as an
-                                                            addition in cookies, biscuits, sweets, energy bars, and
-                                                            cakes.
-                                                        </li>
-                                                        <li>The kernels are also used to make almond-butter, which is an
-                                                            ideal alternative for peanut allergy sufferers.
-                                                        </li>
-                                                    </ul>
+                                                        <p>Here are some serving tips:</p>
+                                                        <ul>
+                                                            <li>Almonds can be enjoyed either on their own, salted or
+                                                                sweetened.
+                                                            </li>
+                                                            <li>They are nutty yet pleasantly sweet in taste. Sweetened <i>almond
+                                                                milk</i> (Badam milk-shake) is a one of popular refreshing
+                                                                drink in Indian and other south Asian countries.
+                                                            </li>
+                                                            <li>They are one of the most sought after among nuts in various
+                                                                rice dishes, savory and sweet preparations in the
+                                                                Middle-East region.
+                                                            </li>
+                                                            <li>The nuts are often sprinkled over desserts, particularly
+                                                                sundaes and other ice cream based preparations.
+                                                            </li>
+                                                            <li>They are widely employed in the confectionery, as an
+                                                                addition in cookies, biscuits, sweets, energy bars, and
+                                                                cakes.
+                                                            </li>
+                                                            <li>The kernels are also used to make almond-butter, which is an
+                                                                ideal alternative for peanut allergy sufferers.
+                                                            </li>
+                                                        </ul>
 
-                                                    <h3 class="section-title">5. Safety Profile</h3>
+                                                        <h3 class="section-title">5. Safety Profile</h3>
 
-                                                    <p>Almond nut allergy, although not so common as other tree nut
-                                                        allergies like cashew, pistachio etc, may
-                                                        often cause hypersensitivity cross-reactions in some people to
-                                                        food substances prepared using these nuts. The type and severity
-                                                        of symptoms may vary, and may include vomiting, diarrhea, pain
-                                                        abdomen, swelling of lips, and throat leading to breathing
-                                                        difficulty, and chest congestion. Therefore, caution should be
-                                                        exercised in those with nut allergic syndrome while consuming
-                                                        food items prepared almond nuts.</p>
+                                                        <p>Almond nut allergy, although not so common as other tree nut
+                                                            allergies like cashew, pistachio etc, may
+                                                            often cause hypersensitivity cross-reactions in some people to
+                                                            food substances prepared using these nuts. The type and severity
+                                                            of symptoms may vary, and may include vomiting, diarrhea, pain
+                                                            abdomen, swelling of lips, and throat leading to breathing
+                                                            difficulty, and chest congestion. Therefore, caution should be
+                                                            exercised in those with nut allergic syndrome while consuming
+                                                            food items prepared almond nuts.</p>
 
-                                                    <h3 class="section-title">6. Bottom Line</h3>
-                                                    <blockquote><p>Almonds, especially persian varieties, carry higher
-                                                        proportions of protein, fat and minerals. They are good source
-                                                        of vitamin E, hold about 25 grams per 100 g (about 170% of RDA).
-                                                        Vitamin E is a powerful lipid soluble antioxidant.</p>
-                                                    </blockquote>
+                                                        <h3 class="section-title">6. Bottom Line</h3>
+                                                        <blockquote><p>Almonds, especially persian varieties, carry higher
+                                                            proportions of protein, fat and minerals. They are good source
+                                                            of vitamin E, hold about 25 grams per 100 g (about 170% of RDA).
+                                                            Vitamin E is a powerful lipid soluble antioxidant.</p>
+                                                        </blockquote>
 
-                                                    <h3 class="section-title">7. In Depth Analysis of Nutrients</h3>
-                                                    <p>Almonds (<i>Prunus dulcis</i>),<br/>
-                                                        Nutritional value per 100 g.<br/>
-                                                        Source: <b>USDA National Nutrient data base</b>
-                                                    </p>
+                                                        <h3 class="section-title">7. In Depth Analysis of Nutrients</h3>
+                                                        <p>Almonds (<i>Prunus dulcis</i>),<br/>
+                                                            Nutritional value per 100 g.<br/>
+                                                            Source: <b>USDA National Nutrient data base</b>
+                                                        </p>
 
-                                                    <table class="nutrient-table">
-                                                        <thead>
-                                                            <tr><td width="40%">Principle</td><td width="30%">Nutrient Value</td><td width="30%">Percentage of RDA</td></tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr><td>Energy</td><td>575 Kcal</td><td>29%</td></tr>
-                                                            <tr class="even-row"><td>Carbohydrates</td><td>21.67 g</td><td>16%</td></tr>
-                                                            <tr><td>Protein</td><td>21.22 g</td><td>38%</td></tr>
-                                                            <tr class="even-row"><td>Total Fat</td><td>49.42 g</td><td>165%</td></tr>
-                                                            <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
-                                                            <tr class="even-row"><td>Dietary Fiber</td><td>12.20 g</td><td>30%</td></tr>
-                                                            <tr class="section"><td colspan="3">Vitamins</td></tr>
-                                                            <tr><td>Folates (B9)</td><td>50 μg</td><td>12.5%</td></tr>
-                                                            <tr class="even-row"><td>Niacin (B3)</td><td>3.385 mg</td><td>21%</td></tr>
-                                                            <tr><td>Pantothenic acid (B5)</td><td>0.47 mg</td><td>9%</td></tr>
-                                                            <tr class="even-row"><td>Pyridoxine (B6)</td><td>0.143 mg</td><td>11%</td></tr>
-                                                            <tr><td>Riboflavin (B2)</td><td>1.014 mg</td><td>78%</td></tr>
-                                                            <tr class="even-row"><td>Thiamin (B1)</td><td>0.211 mg</td><td>16%</td></tr>
-                                                            <tr><td>Vitamin A</td><td>1 IU</td><td>0%</td></tr>
-                                                            <tr class="even-row"><td>Vitamin C</td><td>0 mg</td><td>0%</td></tr>
-                                                            <tr><td>Vitamin E</td><td>26 mg</td><td>173%</td></tr>
-                                                            <tr class="section"><td colspan="3">Electrolytes</td></tr>
-                                                            <tr><td>Sodium</td><td>1 mg</td><td>0%</td></tr>
-                                                            <tr class="even-row"><td>Potassium</td><td>705 mg</td><td>15%</td></tr>
-                                                            <tr class="section"><td colspan="3">Minerals</td></tr>
-                                                            <tr><td>Calcium</td><td>264 mg</td><td>26%</td></tr>
-                                                            <tr class="even-row"><td>Copper</td><td>0.996 mg</td><td>110%</td></tr>
-                                                            <tr><td>Iron</td><td>3.72 mg</td><td>46.5%</td></tr>
-                                                            <tr class="even-row"><td>Magnesium</td><td>268 mg</td><td>67%</td></tr>
-                                                            <tr><td>Manganese</td><td>2.285 mg</td><td>99%</td></tr>
-                                                            <tr class="even-row"><td>Phosphorus</td><td>484 mg</td><td>69%</td></tr>
-                                                            <tr><td>Selenium</td><td>2.5 μg</td><td>4.5%</td></tr>
-                                                            <tr class="even-row"><td>Zinc</td><td>3.08 mg</td><td>28%</td></tr>
-                                                            <tr class="section"><td colspan="3">Phyto-nutrients</td></tr>
-                                                            <tr><td>Carotene-ß</td><td>1 μg</td><td>--</td></tr>
-                                                            <tr class="even-row"><td>Crypto-xanthin-ß</td><td>0 μg</td><td>--</td></tr>
-                                                            <tr><td>Lutein-zeaxanthin</td><td>1 μg</td><td>--</td></tr>
-                                                        </tbody>
-                                                    </table>
+                                                        <table class="nutrient-table">
+                                                            <thead>
+                                                                <tr><td width="40%">Principle</td><td width="30%">Nutrient Value</td><td width="30%">Percentage of RDA</td></tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr><td>Energy</td><td>575 Kcal</td><td>29%</td></tr>
+                                                                <tr class="even-row"><td>Carbohydrates</td><td>21.67 g</td><td>16%</td></tr>
+                                                                <tr><td>Protein</td><td>21.22 g</td><td>38%</td></tr>
+                                                                <tr class="even-row"><td>Total Fat</td><td>49.42 g</td><td>165%</td></tr>
+                                                                <tr><td>Cholesterol</td><td>0 mg</td><td>0%</td></tr>
+                                                                <tr class="even-row"><td>Dietary Fiber</td><td>12.20 g</td><td>30%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Vitamins</td></tr>
+                                                                <tr><td>Folates (B9)</td><td>50 μg</td><td>12.5%</td></tr>
+                                                                <tr class="even-row"><td>Niacin (B3)</td><td>3.385 mg</td><td>21%</td></tr>
+                                                                <tr><td>Pantothenic acid (B5)</td><td>0.47 mg</td><td>9%</td></tr>
+                                                                <tr class="even-row"><td>Pyridoxine (B6)</td><td>0.143 mg</td><td>11%</td></tr>
+                                                                <tr><td>Riboflavin (B2)</td><td>1.014 mg</td><td>78%</td></tr>
+                                                                <tr class="even-row"><td>Thiamin (B1)</td><td>0.211 mg</td><td>16%</td></tr>
+                                                                <tr><td>Vitamin A</td><td>1 IU</td><td>0%</td></tr>
+                                                                <tr class="even-row"><td>Vitamin C</td><td>0 mg</td><td>0%</td></tr>
+                                                                <tr><td>Vitamin E</td><td>26 mg</td><td>173%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Electrolytes</td></tr>
+                                                                <tr><td>Sodium</td><td>1 mg</td><td>0%</td></tr>
+                                                                <tr class="even-row"><td>Potassium</td><td>705 mg</td><td>15%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Minerals</td></tr>
+                                                                <tr><td>Calcium</td><td>264 mg</td><td>26%</td></tr>
+                                                                <tr class="even-row"><td>Copper</td><td>0.996 mg</td><td>110%</td></tr>
+                                                                <tr><td>Iron</td><td>3.72 mg</td><td>46.5%</td></tr>
+                                                                <tr class="even-row"><td>Magnesium</td><td>268 mg</td><td>67%</td></tr>
+                                                                <tr><td>Manganese</td><td>2.285 mg</td><td>99%</td></tr>
+                                                                <tr class="even-row"><td>Phosphorus</td><td>484 mg</td><td>69%</td></tr>
+                                                                <tr><td>Selenium</td><td>2.5 μg</td><td>4.5%</td></tr>
+                                                                <tr class="even-row"><td>Zinc</td><td>3.08 mg</td><td>28%</td></tr>
+                                                                <tr class="table-section"><td colspan="3">Phyto-nutrients</td></tr>
+                                                                <tr><td>Carotene-ß</td><td>1 μg</td><td>--</td></tr>
+                                                                <tr class="even-row"><td>Crypto-xanthin-ß</td><td>0 μg</td><td>--</td></tr>
+                                                                <tr><td>Lutein-zeaxanthin</td><td>1 μg</td><td>--</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="vc_row wpb_row vc_row-fluid hidden">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
+                                    <div class="vc_row wpb_row vc_row-fluid hidden">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <div id="footer-spacer" style="height: 395px;"></div>
     <footer id="footer" class="text-center">
         <a href="../menu.html#" class="to-the-top">

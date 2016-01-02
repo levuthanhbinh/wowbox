@@ -1,0 +1,124 @@
+#menu-intro {
+    background-repeat: no-repeat;
+    background-size: 1440px 600px;
+    background-image: url("../resources/images/menu/cyo/cyo_subpage_1440x600.png");
+    background-position: top center;
+    background-color: #fafafa;
+    overflow: hidden;
+    margin-bottom: 2px;
+    height: 600px;
+}
+
+#menu-intro-content {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+#menu-intro-content-copy {
+    width: 540px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+/* MASONRY */
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.out-wrapper {
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 5px 0 10px;
+}
+
+.masonry-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+
+.cyo-masonry {
+    margin: 1.5em 0 0;
+    padding-bottom: 20px;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.cyo-item {
+    display: inline-block;
+    background: #fff;
+    margin: 14px 7px 3px 7px;
+    /*width: 100%;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22);
+    border-radius: 6px;
+    float: left;
+}
+
+.cyo-item-image {
+    border-radius: 6px 6px 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+.cyo-item-name {
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.cyo-item-price {
+    text-align: center;
+    padding: 6px 10px;
+}
+
+.cyo-item-price .label {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/*
+@media only screen and (min-width: 600px) {
+    .cyo-masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .cyo-masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cyo-masonry {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+    }
+}*/

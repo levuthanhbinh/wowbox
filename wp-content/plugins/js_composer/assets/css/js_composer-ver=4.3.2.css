@@ -2561,6 +2561,8 @@ div .vc_box_shadow_border_circle {
 #content .wpb_text_column *:last-child,
 .wpb_toggle_content p:last-child {
     margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .wpb_row,

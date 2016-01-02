@@ -106,6 +106,29 @@
     float: none !important;
 }
 
+.download-menu-button {
+    margin: 0 0 35px 20px;
+    padding: 6px 21px;
+    border-radius: 0px;
+    float: none;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-color: #2189db;
+    background: -webkit-linear-gradient(#42a1ec, #0070c9);
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
 #section-product-salad {
     background-repeat: no-repeat;
     background-size: 1440px 500px;

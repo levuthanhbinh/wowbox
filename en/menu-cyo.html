@@ -21,6 +21,7 @@
           href='../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet' id='wowbox_customize-css'
           href='../css/wowbox_customize.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='../css/menu_cyo.css' type='text/css' media='all'/>
     <script type='text/javascript'
             src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
     <script type='text/javascript'
@@ -139,7 +140,7 @@
                 <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-17 menu-item-17">
                     <a href="delivery.html">Delivery</a></li>
                 <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-18 menu-item-18">
-                    <a href="nutrition.html">Blog</a></li>
+                    <a href="nutrition.html">cyo</a></li>
                 <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a
                         href="aboutus.html">About Us</a></li>
                 <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
@@ -154,8 +155,20 @@
 
     <div id="web-content">
 
-        <section id="menu-intro" class="section" style="padding-top: 10px;">
-            <img src="../resources/images/menu_bg_1440x770.jpg" />
+        <section id="menu-intro" class="section" style="padding-top: 0;">
+            <div id="menu-intro-content">
+                <div id="menu-intro-content-copy">
+                    <h2 class="section-header">Mix it your way.</h2>
+                    <p class="section-description">
+                        We understand that everyone’s tastebud is distinctive,
+                        so we make it easy for you to pick what you love only.
+                        In Saigon, WowBox boasts the widest range of
+                        60+ fresh salad ingredients<br/>
+                        to be mixed with 14 authentic dressings.<br/><br/>
+                        Hundreds of combinations. A lot of fun.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section id="menu" class="section-scroll main-section menu">
@@ -167,10 +180,10 @@
                     <span class="filter" data-filter=".cyo-green">Select Base Greens</span>
                 </li>
                 <li>
-                    <span class="filter" data-filter=".cyo-topping">Pick some Toppings</span>
+                    <span class="filter" data-filter=".cyo-topping">Add Toppings</span>
                 </li>
                 <li>
-                    <span class="filter" data-filter=".cyo-dressing">Choose a Dressing</span>
+                    <span class="filter" data-filter=".cyo-dressing">Choose Dressing</span>
                 </li>
             </ul>
             <div class="container-fluid menu-content mixitup">
@@ -180,89 +193,55 @@
                             <h2>Select Base Greens</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400" src="../resources/images/menu/cyo/mix_green_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Mixed Greens"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div class="">
-                                    <div class="">
-                                        <h5 class="entry-title"><span class="cyo_description">Mixed Greens</span></h5>
-                                        <p>Green leaf, lolo rosa, frisee, radicchio, escarole, carrot, cabbage</p>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/mix_green_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Mixed Greens
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400" src="../resources/images/menu/cyo/romaine_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Romaine"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div class="">
-                                    <div class="">
-                                        <h5 class="entry-title"><span class="cyo_description">Romaine</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/romaine_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Romaine
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400" src="../resources/images/menu/cyo/kale_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Kale"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div class="">
-                                    <div class="">
-                                        <h5 class="entry-title"><span class="cyo_description">Kale</span></h5>
-                                        <p><span class="label label-success">+ 15,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/kale_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Kale
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 15,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400" src="../resources/images/menu/cyo/spinach_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Baby Spinach"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div class="">
-                                    <div class="">
-                                        <h5 class="entry-title"><span class="cyo_description">Baby Spinach</span></h5>
-                                        <p><span class="label label-success">+ 15,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/spinach_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Baby Spinach
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 15,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400" src="../resources/images/menu/cyo/rocket_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Rocket (Arugula)"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div class="">
-                                    <div class="">
-                                        <h5 class="entry-title"><span class="cyo_description">Rocket<br/>(Arugula)</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/rocket_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Rocket (Arugula)
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -270,7 +249,7 @@
                 <div class="mix cyo-topping" data-myorder="1">
                     <div class="row">
                         <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
-                            <h2>Pick Some Toppings</h2>
+                            <h2>Add Toppings</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -278,298 +257,163 @@
                             <p class="menu-category-description">Vegetables</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/beetroot_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Beet Root"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Beet Root</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/beetroot_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Beet Root
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/broccoli_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Broccoli"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Broccoli</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/broccoli_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Broccoli
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/capsicum_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Capsicum"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Capsicum</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/capsicum_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Capsicum
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/carrot_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Carrot"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Carrot</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/carrot_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Carrot
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/celery_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Celery"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Celery</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/celery_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Celery
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/cherry_tomatoes_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Cherry Tomato"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Cherry Tomato</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/cherry_tomatoes_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Cherry Tomato
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/cucumber_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Cucumber"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Cucumber</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/cucumber_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Cucumber
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/french_bean_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Green Bean"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Green Bean</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/french_bean_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        French Bean
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/black_olive_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Black Olive"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Olive</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/black_olive_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Olive
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/onion_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Onion"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Onion</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/onion_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Onion
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/pumpkin_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Pumpkin"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Pumpkin</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/pumpkin_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Pumpkin
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/radish_sprout_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Sprout"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Radish Sprout</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/radish_sprout_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Sprout
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/red_radish_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Red Radish"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Red Radish</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/red_radish_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Red Radish
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/asparagus_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Asparagus"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Asparagus</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/asparagus_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Asparagus
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/shiitake_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Braised Shiitake Mushroom"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Braised Shiitake Mushroom</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/shiitake_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Shiitake Mushroom
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/shallot_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Caramel Shallot"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Caramel Shallot</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/shallot_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Caramelized Shallot
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/king_oyster_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Roasted King Oyster Mushroom"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Sauteed King Oyster Mushroom</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/king_oyster_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        King Oyster Mushroom
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -578,92 +422,55 @@
                             <p class="menu-category-description">Fruits</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/grilled_pineapple_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Grilled Pineapple"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Grilled Pineapple</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/grilled_pineapple_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Grilled Pineapple
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/grilled_watermelon_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Grilled Watermelon"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Grilled Watermelon</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/grilled_watermelon_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Grilled Watermelon
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/raisin_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Raisin"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Raisin</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/raisin_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Raisin
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/avocado_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Avocado"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Avocado</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/avocado_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Avocado
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/mix_fruit_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Mixed Fruits"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Mixed Fruits</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/mix_fruit_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Mixed Fruits
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -672,110 +479,64 @@
                             <p class="menu-category-description">Grains & Nuts</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/chickpea_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Chickpea"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Chickpea</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/chickpea_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Chickpea
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/kidney_beans_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Red Bean"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Red Bean</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/kidney_beans_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Red Bean
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/sweet_corn_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Sweet Corn"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Sweet Corn</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/sweet_corn_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Sweet Corn
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/almond_flakes_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Almond Flake"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Almond Flake</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/almond_flakes_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Almond Flake
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/quinoa_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Quinoa"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Quinoa</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/quinoa_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Quinoa
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/walnut_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Walnut Seed"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Walnut Seed</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/walnut_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Walnut Seed
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -784,126 +545,73 @@
                             <p class="menu-category-description">Carbs</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/boiled_potato_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Boiled Potato"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Boiled Potato</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/boiled_potato_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Boiled Potato
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/crouton_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Crouton"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Crouton</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/crouton_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Crouton
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/garlic_bread_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Garlic Bread"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Garlic Bread</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/garlic_bread_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Garlic Bread
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/pasta_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Pasta"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Pasta</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/pasta_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Pasta
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/roasted_potato_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Roasted Potato"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Roasted Potato</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/roasted_potato_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Roasted Potato
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/sesame_rice_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Sesame Rice"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Sesame Rice</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/sesame_rice_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Sesame Rice
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/soba_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Soba Noodle"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Soba Noodle</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/soba_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Soba Noodle
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -912,41 +620,28 @@
                             <p class="menu-category-description">Cheese</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/feta_cheese_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Feta Cheese"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Feta Cheese</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/feta_cheese_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Feta Cheese
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/parmesan_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Parmesan Cheese"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Parmesan Cheese</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/parmesan_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Parmesan Cheese
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -955,328 +650,172 @@
                             <p class="menu-category-description">Proteins</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/boiled_egg_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Boiled Egg"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Boiled Egg</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/boiled_egg_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Boiled Egg
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/egg_tofu_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Egg Tofu"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Egg Tofu</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/egg_tofu_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Egg Tofu
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/paprika_prawns_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Paprika Prawn"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Paprika Prawn</span></h5>
-                                        <p><span class="label label-success">+ 30,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/paprika_prawns_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Paprika Prawn
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 30,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/peppered_beef_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Peppered Beef"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Peppered Beef</span></h5>
-                                        <p><span class="label label-success">+ 30,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/peppered_beef_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Peppered Beef
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 30,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/sesame_tuna_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Sesame Tuna"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Sesame Tuna</span></h5>
-                                        <p><span class="label label-success">+ 30,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/sesame_tuna_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Sesame Tuna
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 30,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/smoked_duck_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Smoked Duck Breast"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Smoked Duck Breast</span></h5>
-                                        <p><span class="label label-success">+ 30,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/smoked_duck_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Smoked Duck Breast
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 30,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/smoked_salmon_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Smoked Salmon"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Smoked Salmon</span></h5>
-                                        <p><span class="label label-success">+ 30,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/smoked_salmon_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Smoked Salmon
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 30,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/bacon_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Bacon"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Bacon</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/bacon_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Bacon
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/crab_stick_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Crab Stick"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Crab Stick</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/crab_stick_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Crab Stick
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/oiled_tuna_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Oiled Tuna"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Oil-cured Tuna</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/oiled_tuna_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Oil-cured Tuna
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/pork_tenderloin_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Oven-baked Pork Tenderloin"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Oven-baked Pork Tenderloin</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/pork_tenderloin_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Pork Tenderloin
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/roasted_chicken_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Roasted Chicken Breast"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Roasted Chicken Breast</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/roasted_chicken_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Roasted Chicken Breast
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/salami_ham_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Salami & Ham"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Salami & Ham</span></h5>
-                                        <p><span class="label label-success">+ 20,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/salami_ham_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Salami & Ham
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 20,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/cinnamon_chicken_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Cinnamon Chicken"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Cinnamon Chicken</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/cinnamon_chicken_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Cinnamon Chicken
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/basa_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Pan-fried Basa Fish"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Pan-fried Basa Fish</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/basa_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Pan-fried Basa Fish
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/roasted_chicken_drum_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Roasted Chicken Drumstick"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Roasted Chicken Drumstick</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/roasted_chicken_drum_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Roasted Chicken Drumstick
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/shredded_chicken_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Shredded Chicken Breast"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Shredded Chicken Breast</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/shredded_chicken_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Shredded Chicken Breast
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/veg_pork_rib_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Vegetarian Pork Rib"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Vegetarian Pork Rib</span></h5>
-                                        <p><span class="label label-success">+ 10,000 VND</span></p>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/veg_pork_rib_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Vegetarian Pork Rib
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-success">+ 10,000 VND</span>
                                     </div>
                                 </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -1284,195 +823,139 @@
                 <div class="mix cyo-dressing" data-myorder="1">
                     <div class="row">
                         <div class="col-xs-12 menu-category sticky-header sticky-header first-header fixed visible">
-                            <h2>Choose A Dressing</h2>
+                            <h2>Choose Dressing</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/poppy_seed_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Poppy Seed Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Poppy Seed Dressing</span></h5>
+                    <div class="out-wrapper">
+                        <div class="masonry-wrapper">
+                            <div class="cyo-masonry">
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/poppy_seed_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Poppy Seed
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/raspberry_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Raspberry Balsamic Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Raspberry Balsamic Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/raspberry_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Raspberry Balsamic
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/thai_lemon_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Thai Lemongrass Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Thai Lemongrass Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/thai_lemon_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Thai Lemongrass
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/italian_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Italian Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Italian Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/italian_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Italian
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/honey_dijon_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Honey Dijon Balsamic Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Honey Dijon Balsamic Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/honey_dijon_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Honey Dijon Balsamic
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/french_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="French Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">French Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/french_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        French
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/mango_passion_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Mango & Passion Fruit Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Mango & Passion Fruit Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/mango_passion_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Mango & Passion Fruit
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/ranch_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Ranch Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Ranch Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/ranch_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Ranch
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/caesar_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Caesar Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Caesar Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/caesar_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Caesar
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/coriander_lime_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Coriander Lime Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Coriander Lime Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/coriander_lime_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Coriander Lime
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="menu-item">
-                            <a>
-                                <figure>
-                                    <img width="400" height="400"
-                                         src="../resources/images/menu/cyo/dressing/wasabi_400x400.jpg"
-                                         class="attachment-menu_thumb wp-post-image" alt="Wasabi Dressing"/>
-                                </figure>
-                            </a>
-
-                            <div class="item-description">
-                                <div>
-                                    <div>
-                                        <h5 class="entry-title"><span class="cyo_description">Wasabi Dressing</span></h5>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/wasabi_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Wasabi
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
                                     </div>
                                 </div>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/dressing/sesame_400x400.jpg"/>
+                                    <div class="cyo-item-name">
+                                        Sesame
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
+                                    </div>
+                                </div>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/"/>
+                                    <div class="cyo-item-name">
+                                        Ginger Soya
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
+                                    </div>
+                                </div>
+                                <div class="cyo-item">
+                                    <img class="cyo-item-image" src="../resources/images/menu/cyo/"/>
+                                    <div class="cyo-item-name">
+                                        Chilli
+                                    </div>
+                                    <div class="cyo-item-price">
+                                        <span class="label label-default">+ 0 VND</span>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
                             </div>
                         </div>
                     </div>
@@ -1510,7 +993,7 @@
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
                                         <h5>Monday &#8211; Saturday<br/>
-                                            09:00 &#8211; 20:30</span></h5>
+                                            09:00 &#8211; 20:30</h5>
                                     </div>
                                 </div>
                             </div>
@@ -1522,7 +1005,7 @@
                                     <div class="wpb_wrapper">
                                         <h5>70 Ham Nghi blvd.,<br/>
                                             Ben Nghe ward,<br/>
-                                            District 1, HCM City</span></h5>
+                                            District 1, HCM City</h5>
                                     </div>
                                 </div>
                             </div>
@@ -1533,7 +1016,7 @@
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
                                         <h5>Order NOW<br/>
-                                            08.6685.9055</span></h5>
+                                            08.6685.9055</h5>
                                     </div>
                                 </div>
                             </div>
@@ -1561,7 +1044,6 @@
     <div class="berg-overlay-background"></div>
 </div>
 <div class="berg-overlay"></div>
-
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1570,46 +1052,23 @@
 
     ga('create', 'UA-60799312-1', 'auto');
     ga('send', 'pageview');
-
 </script>
-<script type='text/javascript'
-        src='../wp-content/plugins/contact-form-7/includes/js/jquery.form.min-ver=3.51.0-2014.06.20.js'></script>
-<script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts-ver=3.9.3.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min-ver=2.2.8.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min-ver=2.60.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min-ver=2.2.8.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min-ver=1.3.1.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min-ver=2.2.8.js'></script>
+
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/navigation-ver=20120206.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/skip-link-focus-fix-ver=20130115.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/browser-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.ba-throttle-debounce.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.smooth-scroll-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/matchmedia-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/enquire.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.velocity.min-ver=1.0.js'></script>
-<script type='text/javascript'
-        src='../wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.min-ver=4.3.2.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/owl.carousel-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.mb.YTPlayer-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.parallaxify-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.imagesloaded-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.unveil.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.superslides.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.fullPage.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.mixitup-ver=1.0.js'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var translation = {"no_more_posts": "No more posts"};
-    /* ]]> */
-</script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/main-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-includes/js/comment-reply.min-ver=4.0.1.js'></script>
 <script type='text/javascript' src='../wp-content/plugins/js_composer/assets/js/js_composer_front-ver=4.3.2.js'></script>
+<script type='text/javascript' src='../wp-includes/js/masonry.pkgd.min.js'></script>
 </body>
 </html>
