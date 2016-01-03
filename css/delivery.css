@@ -1,6 +1,7 @@
 .delivery-table-wrapper {
     margin: 40px auto 80px;
-    width: 800px;
+    width: 90%;
+    max-width: 800px;
     position: relative;
     z-index: 1;
     height: 100%;

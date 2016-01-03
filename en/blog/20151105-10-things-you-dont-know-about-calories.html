@@ -27,33 +27,9 @@
     <!-- End SEO -->
 
     <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
-    <link rel='stylesheet' id='rs-plugin-settings-css'
-          href='../../wp-content/plugins/revslider/rs-plugin/css/settings-rev=4.5.95&ver=4.0.1.css' type='text/css'
-          media='all'/>
-    <link rel='stylesheet' id='berg-wp-style-css' href='../../wp-content/themes/berg-wp/styles/css/custom-ver=4.0.1.css'
-          type='text/css' media='all'/>
-    <link rel='stylesheet' id='main-theme-font-css'
-          href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css' media='all'/>
-    <link rel='stylesheet' id='js_composer_front-css'
-          href='../../wp-content/plugins/js_composer/assets/css/js_composer-ver=4.3.2.css' type='text/css' media='all'/>
-    <link rel='stylesheet' id='js_composer_custom_css-css' href='../../wp-content/uploads/js_composer/custom-ver=4.3.2.css'
-          type='text/css' media='screen'/>
-    <link rel='stylesheet' id='berg-woocommerce-css'
-          href='../../wp-content/themes/berg-wp/styles/css/woocommerce-ver=4.0.1.css' type='text/css' media='all'/>
-    <link rel='stylesheet' id='wowbox_customize-css'
-          href='../../css/wowbox_customize.css' type='text/css' media='all'/>
-    <script type='text/javascript'
-            src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
-    <script type='text/javascript'
-            src='../../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min-rev=4.5.95&ver=4.0.1.js'></script>
-    <script type='text/javascript'
-            src='../../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min-rev=4.5.95&ver=4.0.1.js'></script>
-    <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&ver=1.0'></script>
-    <style type="text/css">.recentcomments a {
-        display: inline !important;
-        padding: 0 !important;
-        margin: 0 !important;
-    }</style>
+    <link rel='stylesheet' href='../../wp-content/themes/berg-wp/styles/css/custom-ver=4.0.1.css' type='text/css' media='all'/>
+    <link rel='stylesheet' href='../../css/wowbox_customize.css' type='text/css' media='all'/>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
 </head>
 <body class="page page-template show-nav">
 
@@ -136,17 +112,15 @@
             <div class="container-fluid">
                 <ul class="menu-header">
                     <li class="pull-left">
-                        <a href="../index.html" class="logo">
-                            <figure>
-                                <img src="../../resources/images/logo/logo_200x145.png" alt="WowBox"/>
-                            </figure>
+                        <a href="../index.html">
+                            <img class="mobile-logo" src="../../resources/images/logo/logo_200x200.png">
                         </a>
                     </li>
-                    <li class="pull-left">
-                        <span class="glf-button" id="glf-restaurant-order-online-2" style="margin: 20px 0 0 110px; padding: 6px 14px; border-radius: 15px; font-family: 'Helvetica', sans-serif; float: left;">Order Online</span>
-                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online-2","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
-                    </li>
                     <li class="reorder pull-right"><a href="../menu.html#" title=""><i class="fa fa-bars"></i></a>
+                    </li>
+                    <li class="pull-right">
+                        <span class="glf-button" id="glf-restaurant-order-online-2" style="margin: 14px 0 0; padding: 0 8px; font-size: 14px; border-radius: 2px;">Order Online</span>
+                        <script> (function(w,d,s,id,h,bid,cuid) { var js,fjs=d.getElementsByTagName(s)[0], l=function(){glfWidget(h,[bid],cuid); d.getElementById(bid).removeAttribute('id');}, b=function(s){s.addEventListener?s.addEventListener('load',l,false):s.attachEvent("onload", l);}; if(!(js=d.getElementById(id))){ js=d.createElement(s);js.id=id;js.src=h+"widget/js/ewm.js"; b(js);fjs.parentNode.insertBefore(js,fjs); }else if(!w.glfWidget) b(js); else l(); }(window,document,'script','glf-embedder-js',"https://www.foodbooking.com/","glf-restaurant-order-online-2","167ac133-a087-4271-b36d-ae66b8f2a49e")); </script>
                     </li>
                 </ul>
             </div>
@@ -154,368 +128,361 @@
 
         <div class="flyout-container">
             <ul id="menu-mobile" class="menu">
-                <li id="menu-item-11" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11"><a
-                        href="../menu.html">Ready Menu</a></li>
-                <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-12 menu-item-12">
-                    <a href="../menu-cyo.html">Create Your Salad</a></li>
-                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-17 menu-item-17">
-                    <a href="../delivery.html">Delivery</a></li>
-                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-pagepage_item page-item-18 menu-item-18">
-                    <a href="../nutrition.html">Blog</a></li>
-                <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a
-                        href="../aboutus.html">About Us</a></li>
-                <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a
-                        href="../contact.html">Contact</a></li>
-                <li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15"><a
-                        href="../index.html">Home</a></li>
-                <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a
-                        href="../../index.html">Tiếng Việt</a></li>
+                <li id="menu-item-11" class="menu-item"><a href="../menu.html">Ready Menu</a></li>
+                <li id="menu-item-12" class="menu-item"><a href="../menu-cyo.html">Create Your Salad</a></li>
+                <li id="menu-item-17" class="menu-item"><a href="../delivery.html">Delivery</a></li>
+                <li id="menu-item-18" class="menu-item"><a href="../nutrition.html">Nutrition</a></li>
+                <li id="menu-item-13" class="menu-item"><a href="../aboutus.html">About Us</a></li>
+                <li id="menu-item-15" class="menu-item"><a href="../index.html">Home</a></li>
+                <li id="menu-item-16" class="menu-item"><a href="../../index.html">Tiếng Việt</a></li>
             </ul>
         </div>
     </div>
 
-    <section id="post" class="section-scroll main-section blog">
-        <div class="container-fluid">
-            <div class="row">
-                <article class="post">
-                    <a class="img-post">
-                        <figure>
-                            <img width="1000" height="600" src="../../resources/images/blog/20151105/calories_1000x600.jpg"
-                                 class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
-                    </a>
+    <div id="web-content">
+        <section id="post" class="section-scroll main-section blog">
+            <div class="container-fluid">
+                <div class="row">
+                    <article class="post">
+                        <a class="img-post">
+                            <figure>
+                                <img width="1000" height="600" src="../../resources/images/blog/20151105/calories_1000x600.jpg"
+                                     class="attachment-blog_thumb wp-post-image" alt="intro"/></figure>
+                        </a>
 
-                    <div class="post-content ">
-                        <div class="post-wrapper">
-                            <div class="post-wrapper-inner">
-                                <span class="date">
-                                    <span class="posted-on">
-                                        <span>
-                                            <time class="entry-date published" datetime="2015-11-05T00:00:00+07:00">
-                                                05 November, 2015
-                                            </time>
+                        <div class="post-content ">
+                            <div class="post-wrapper">
+                                <div class="post-wrapper-inner">
+                                    <span class="date">
+                                        <span class="posted-on">
+                                            <span>
+                                                <time class="entry-date published" datetime="2015-11-05T00:00:00+07:00">
+                                                    05 November, 2015
+                                                </time>
+                                            </span>
                                         </span>
                                     </span>
-                                </span>
 
-                                <h1 class="entry-title">10 Things You Don't Know about Calories</h1>
-                                <ul class="post_details">
-                                    <li><span>Shape.com</span></li>
-                                </ul>
-                                <div class="social-share">
-                                    <ul>
-                                        <li>
-                                            <div class="fb-share-button" data-href="http://wowbox.vn/en/blog/20151105-10-things-you-dont-know-about-calories.html" data-layout="button"></div>
-                                        </li>
+                                    <h1 class="entry-title">10 Things You Don't Know about Calories</h1>
+                                    <ul class="post_details">
+                                        <li><span>Shape.com</span></li>
                                     </ul>
+                                    <div class="social-share">
+                                        <ul>
+                                            <li>
+                                                <div class="fb-share-button" data-href="http://wowbox.vn/en/blog/20151105-10-things-you-dont-know-about-calories.html" data-layout="button"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </article>
-                <div class="container">
-                    <div class="row">
-                        <div class="post-text col-md-8 col-md-offset-2">
-                            <article>
-                                <div class="vc_row wpb_row vc_row-fluid">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
+                    </article>
+                    <div class="container">
+                        <div class="row">
+                            <div class="post-text col-md-8 col-md-offset-2">
+                                <article>
+                                    <div class="vc_row wpb_row vc_row-fluid">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
 
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper">
-                                                    <p><span class="dropcap">C</span><b><strong>alories get a bad rap.
-                                                        We blame them for everything -- from making us feel guilty about
-                                                        enjoying a hot fudge sundae with extra nuts to the way our jeans
-                                                        fit (or don't fit, as the case may be).</strong></b>
-                                                    </p>
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <p><span class="dropcap">C</span><b><strong>alories get a bad rap.
+                                                            We blame them for everything -- from making us feel guilty about
+                                                            enjoying a hot fudge sundae with extra nuts to the way our jeans
+                                                            fit (or don't fit, as the case may be).</strong></b>
+                                                        </p>
 
-                                                    <p>Yet, demonizing calories is like bad-mouthing oxygen: It's
-                                                        impossible to survive very long without either one. "Calories
-                                                        fuel the body. We need them, just as we should enjoy the foods
-                                                        that provide them," says John Foreyt, Ph.D., director of the
-                                                        Nutrition Research Center at Baylor College of Medicine in
-                                                        Houston and an expert on weight management. "There's nothing bad
-                                                        or magical about calories, it's just that body weight comes down
-                                                        to a simple equation of calories in (from food) versus calories
-                                                        out (as physical activity)."</p>
+                                                        <p>Yet, demonizing calories is like bad-mouthing oxygen: It's
+                                                            impossible to survive very long without either one. "Calories
+                                                            fuel the body. We need them, just as we should enjoy the foods
+                                                            that provide them," says John Foreyt, Ph.D., director of the
+                                                            Nutrition Research Center at Baylor College of Medicine in
+                                                            Houston and an expert on weight management. "There's nothing bad
+                                                            or magical about calories, it's just that body weight comes down
+                                                            to a simple equation of calories in (from food) versus calories
+                                                            out (as physical activity)."</p>
 
-                                                    <p>Here's the real skinny -- answers from the experts to 10 of the
-                                                        most frequently asked questions about calories, and what you
-                                                        really need to know to lose weight.</p>
+                                                        <p>Here's the real skinny -- answers from the experts to 10 of the
+                                                            most frequently asked questions about calories, and what you
+                                                            really need to know to lose weight.</p>
 
-                                                    <h3 class="section-title">1. What is a calorie?</h3>
+                                                        <h3 class="section-title">1. What is a calorie?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/high_calorie_food_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="high calorie food"/>
-                                                        <figcaption class="img-caption">Main caloric supplies: protein, carbohyfrates, alcohol, and fat
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/high_calorie_food_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="high calorie food"/>
+                                                            <figcaption class="img-caption">Main caloric supplies: protein, carbohyfrates, alcohol, and fat
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>"Just like a quart is a measurement of volume and an inch is a
-                                                        measurement of length, a calorie is a measurement or unit of
-                                                        energy," explains dieting-researcher Kelly Brownell, Ph.D., a
-                                                        professor of psychology at Yale University in New Haven, Conn.,
-                                                        and author of The LEARN Program for Weight Management (American
-                                                        Health Publishing Co., 2004). "The number of calories in the
-                                                        foods you eat is a measure of the number of energy units that
-                                                        food supplies." Those energy units are used by the body to fuel
-                                                        physical activity as well as all metabolic processes, from
-                                                        maintaining your heartbeat and growing hair to healing a scraped
-                                                        knee and building muscle.</p>
+                                                        <p>"Just like a quart is a measurement of volume and an inch is a
+                                                            measurement of length, a calorie is a measurement or unit of
+                                                            energy," explains dieting-researcher Kelly Brownell, Ph.D., a
+                                                            professor of psychology at Yale University in New Haven, Conn.,
+                                                            and author of The LEARN Program for Weight Management (American
+                                                            Health Publishing Co., 2004). "The number of calories in the
+                                                            foods you eat is a measure of the number of energy units that
+                                                            food supplies." Those energy units are used by the body to fuel
+                                                            physical activity as well as all metabolic processes, from
+                                                            maintaining your heartbeat and growing hair to healing a scraped
+                                                            knee and building muscle.</p>
 
-                                                    <p>Only four components of food supply calories: protein and
-                                                        carbohydrates (4 calories per gram), alcohol (7 calories per
-                                                        gram) and fat (9 calories per gram). Vitamins, minerals,
-                                                        phytochemicals, fiber and water do not supply calories.</p>
+                                                        <p>Only four components of food supply calories: protein and
+                                                            carbohydrates (4 calories per gram), alcohol (7 calories per
+                                                            gram) and fat (9 calories per gram). Vitamins, minerals,
+                                                            phytochemicals, fiber and water do not supply calories.</p>
 
-                                                    <h3 class="section-title">2. How do I calculate how many calories I
-                                                        should cut to lose weight?</h3>
+                                                        <h3 class="section-title">2. How do I calculate how many calories I
+                                                            should cut to lose weight?</h3>
 
-                                                    <p>First, you need to know how many calories you're currently
-                                                        consuming. You can figure that out by keeping a food journal:
-                                                        tracking calories for everything you eat during a period
-                                                        including at least two weekdays and one weekend day (since
-                                                        people tend to eat differently on weekends). Figure out the
-                                                        calorie count for each food item (see question 3), then tally
-                                                        the total calories and divide by the number of days you tracked
-                                                        your intake to find your daily average.</p>
+                                                        <p>First, you need to know how many calories you're currently
+                                                            consuming. You can figure that out by keeping a food journal:
+                                                            tracking calories for everything you eat during a period
+                                                            including at least two weekdays and one weekend day (since
+                                                            people tend to eat differently on weekends). Figure out the
+                                                            calorie count for each food item (see question 3), then tally
+                                                            the total calories and divide by the number of days you tracked
+                                                            your intake to find your daily average.</p>
 
-                                                    <p>Or you can roughly estimate your caloric intake by using this
-                                                        formula: If you are age 30 or under, multiply your weight by 6.7
-                                                        and add 487; women who are 31-60 should multiply their weight by
-                                                        4 and add 829. Then, multiply the total by 1.3 if you're
-                                                        sedentary (don't work out at all), 1.5 if you're slightly active
-                                                        (work out three to four times a week for one hour), 1.6 if
-                                                        you're moderately active (work out four to five times a week for
-                                                        one hour) or 1.9 if you're very active (work out almost every
-                                                        day for one hour).</p>
+                                                        <p>Or you can roughly estimate your caloric intake by using this
+                                                            formula: If you are age 30 or under, multiply your weight by 6.7
+                                                            and add 487; women who are 31-60 should multiply their weight by
+                                                            4 and add 829. Then, multiply the total by 1.3 if you're
+                                                            sedentary (don't work out at all), 1.5 if you're slightly active
+                                                            (work out three to four times a week for one hour), 1.6 if
+                                                            you're moderately active (work out four to five times a week for
+                                                            one hour) or 1.9 if you're very active (work out almost every
+                                                            day for one hour).</p>
 
-                                                    <p>Once you know about how many calories you consume per day, try
-                                                        Foreyt's 100/100 plan: "To lose a couple of pounds a month, cut
-                                                        100 calories from your daily diet and add 100 calories in
-                                                        exercise. This is as easy as eliminating the pat of butter on a
-                                                        slice of toast and walking 20 minutes every day," he notes.</p>
+                                                        <p>Once you know about how many calories you consume per day, try
+                                                            Foreyt's 100/100 plan: "To lose a couple of pounds a month, cut
+                                                            100 calories from your daily diet and add 100 calories in
+                                                            exercise. This is as easy as eliminating the pat of butter on a
+                                                            slice of toast and walking 20 minutes every day," he notes.</p>
 
-                                                    <h3 class="section-title">3. How do I figure out the calories in
-                                                        fruits, vegetables and other foods without a nutrition
-                                                        label?</h3>
+                                                        <h3 class="section-title">3. How do I figure out the calories in
+                                                            fruits, vegetables and other foods without a nutrition
+                                                            label?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/fruit_market_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="fruit and vegetable calories"/>
-                                                        <figcaption class="img-caption">Know the calories in each kind of food is the key to control your intake
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/fruit_market_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="fruit and vegetable calories"/>
+                                                            <figcaption class="img-caption">Know the calories in each kind of food is the key to control your intake
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>There are dozens of calorie-counting books on the market. Check
-                                                        out Corinne Netzer's The Complete Book of Food Counts, 6th
-                                                        Edition (Dell Publishing, 2003). You also can get similar
-                                                        information for free on the Web. One of our favorite sites is
-                                                        the U.S. Department of Agriculture's online nutrient database at
-                                                        www.nal.usda.gov/fnic/foodcomp/search/.</p>
+                                                        <p>There are dozens of calorie-counting books on the market. Check
+                                                            out Corinne Netzer's The Complete Book of Food Counts, 6th
+                                                            Edition (Dell Publishing, 2003). You also can get similar
+                                                            information for free on the Web. One of our favorite sites is
+                                                            the U.S. Department of Agriculture's online nutrient database at
+                                                            www.nal.usda.gov/fnic/foodcomp/search/.</p>
 
-                                                    <p>Use these tools diligently to keep track, and in just a few weeks
-                                                        you'll be able to gauge how many calories are in the portions
-                                                        you typically eat. It's then simply a matter of cutting down on
-                                                        those portions to lose weight.</p>
+                                                        <p>Use these tools diligently to keep track, and in just a few weeks
+                                                            you'll be able to gauge how many calories are in the portions
+                                                            you typically eat. It's then simply a matter of cutting down on
+                                                            those portions to lose weight.</p>
 
-                                                    <h3 class="section-title">4. What is the lowest, yet still safe,
-                                                        calorie level I can drop to when I'm trying to lose weight?</h3>
+                                                        <h3 class="section-title">4. What is the lowest, yet still safe,
+                                                            calorie level I can drop to when I'm trying to lose weight?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/weight_loss_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="control your diet healthily"/>
-                                                        <figcaption class="img-caption">Control your diet healthily
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/weight_loss_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="control your diet healthily"/>
+                                                            <figcaption class="img-caption">Control your diet healthily
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>"Women should not consume less than 1,200 calories a day,"
-                                                        Brownell cautions. In fact, a diet below 1,000 calories a day
-                                                        (called a very low-calorie diet or VLCD) increases your risk for
-                                                        gallstones and heart problems and should be followed only by
-                                                        obese people under a doctor's supervision. While you can drop to
-                                                        1,200 calories per day and survive, doing so is not a smart
-                                                        idea. Going for a bare-minimum caloric intake may yield quick
-                                                        results, but it also can leave you listless and unable to
-                                                        exercise (key to keeping the pounds off), and may lead to muscle
-                                                        loss and a slowing of your metabolism. Even if you're careful
-                                                        about what you eat, a daily intake of 1,200 calories can
-                                                        shortchange you on important nutrients such as calcium and
-                                                        folate.</p>
+                                                        <p>"Women should not consume less than 1,200 calories a day,"
+                                                            Brownell cautions. In fact, a diet below 1,000 calories a day
+                                                            (called a very low-calorie diet or VLCD) increases your risk for
+                                                            gallstones and heart problems and should be followed only by
+                                                            obese people under a doctor's supervision. While you can drop to
+                                                            1,200 calories per day and survive, doing so is not a smart
+                                                            idea. Going for a bare-minimum caloric intake may yield quick
+                                                            results, but it also can leave you listless and unable to
+                                                            exercise (key to keeping the pounds off), and may lead to muscle
+                                                            loss and a slowing of your metabolism. Even if you're careful
+                                                            about what you eat, a daily intake of 1,200 calories can
+                                                            shortchange you on important nutrients such as calcium and
+                                                            folate.</p>
 
-                                                    <p>Your best bet for success: a moderate calorie cut such as the one
-                                                        Foreyt recommends. That way you'll stay healthy and still have
-                                                        energy for an active lifestyle.</p>
+                                                        <p>Your best bet for success: a moderate calorie cut such as the one
+                                                            Foreyt recommends. That way you'll stay healthy and still have
+                                                            energy for an active lifestyle.</p>
 
-                                                    <h3 class="section-title">5. Are calories from fat more fattening
-                                                        than calories from carbohydrates and protein?</h3>
+                                                        <h3 class="section-title">5. Are calories from fat more fattening
+                                                            than calories from carbohydrates and protein?</h3>
 
-                                                    <p>Yes. "Dietary fat is more readily stored as body fat, because the
-                                                        body must work harder to convert carbohydrates and protein to
-                                                        [body] fat, while dietary fat can be stored as is. That
-                                                        increased work equates to a slight loss of calories," says
-                                                        Robert H. Eckel, M.D., a professor of medicine at the University
-                                                        of Colorado Health Sciences Center in Denver and chairman of the
-                                                        American Heart Association's Council on Nutrition, Physical
-                                                        Activity and Metabolism. When a 100-calorie pat of butter enters
-                                                        your system, your body burns 3 percent of its calories in order
-                                                        to turn it into body fat. But your system uses 23 percent of the
-                                                        calories in carbs and protein to convert them into fat for
-                                                        storage. That said, there is no evidence that dietary fat is
-                                                        stored in any greater amount as body fat than carbs or protein
-                                                        if you are balancing calories in with calories out. Overeating
-                                                        is still the problem -- it's just that it's much easier to
-                                                        overeat fatty foods since they are such concentrated sources of
-                                                        calories.</p>
+                                                        <p>Yes. "Dietary fat is more readily stored as body fat, because the
+                                                            body must work harder to convert carbohydrates and protein to
+                                                            [body] fat, while dietary fat can be stored as is. That
+                                                            increased work equates to a slight loss of calories," says
+                                                            Robert H. Eckel, M.D., a professor of medicine at the University
+                                                            of Colorado Health Sciences Center in Denver and chairman of the
+                                                            American Heart Association's Council on Nutrition, Physical
+                                                            Activity and Metabolism. When a 100-calorie pat of butter enters
+                                                            your system, your body burns 3 percent of its calories in order
+                                                            to turn it into body fat. But your system uses 23 percent of the
+                                                            calories in carbs and protein to convert them into fat for
+                                                            storage. That said, there is no evidence that dietary fat is
+                                                            stored in any greater amount as body fat than carbs or protein
+                                                            if you are balancing calories in with calories out. Overeating
+                                                            is still the problem -- it's just that it's much easier to
+                                                            overeat fatty foods since they are such concentrated sources of
+                                                            calories.</p>
 
-                                                    <p>But be sure not to cut out all fat. A little bit is necessary for
-                                                        body functions, such as vitamin absorption. And monounsaturated
-                                                        fats -- olive oil, nuts, avocados -- have been found to be
-                                                        beneficial for heart health.</p>
+                                                        <p>But be sure not to cut out all fat. A little bit is necessary for
+                                                            body functions, such as vitamin absorption. And monounsaturated
+                                                            fats -- olive oil, nuts, avocados -- have been found to be
+                                                            beneficial for heart health.</p>
 
-                                                    <h3 class="section-title">6. Do I cut calories or fat to lose
-                                                        weight?</h3>
+                                                        <h3 class="section-title">6. Do I cut calories or fat to lose
+                                                            weight?</h3>
 
-                                                    <p>Cut both for best results. "It is a lot easier to restrict
-                                                        calories when you cut fat, while cutting fat aids in weight loss
-                                                        only if it is accompanied by a drop in calories," Brownell
-                                                        explains. The National Weight Control Registry -- an ongoing
-                                                        project at the University of Pittsburgh and the University of
-                                                        Colorado -- found that dieters who maintained a 30-pound or more
-                                                        weight loss for more than one year were successful in part by
-                                                        limiting their calories to about 1,300 a day and keeping fat to
-                                                        about 24 percent of calories.</p>
+                                                        <p>Cut both for best results. "It is a lot easier to restrict
+                                                            calories when you cut fat, while cutting fat aids in weight loss
+                                                            only if it is accompanied by a drop in calories," Brownell
+                                                            explains. The National Weight Control Registry -- an ongoing
+                                                            project at the University of Pittsburgh and the University of
+                                                            Colorado -- found that dieters who maintained a 30-pound or more
+                                                            weight loss for more than one year were successful in part by
+                                                            limiting their calories to about 1,300 a day and keeping fat to
+                                                            about 24 percent of calories.</p>
 
-                                                    <h3 class="section-title">7. Do calories from saturated fat take
-                                                        longer to burn than calories from unsaturated fats?</h3>
+                                                        <h3 class="section-title">7. Do calories from saturated fat take
+                                                            longer to burn than calories from unsaturated fats?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/unsaturated_fats_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="unsaturated fats have many health benefits"/>
-                                                        <figcaption class="img-caption">Unsaturated fats are very healthy, but don't help you lose weight
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/unsaturated_fats_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="unsaturated fats have many health benefits"/>
+                                                            <figcaption class="img-caption">Unsaturated fats are very healthy, but don't help you lose weight
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>Probably not. A handful of studies, mostly on animals, found that
-                                                        the monounsaturated fats in nuts and olives might burn a little
-                                                        faster than saturated fats. "All fats are metabolized
-                                                        differently, but the differences are so slight that switching
-                                                        from one fat to another has no practical use for weight loss,"
-                                                        Foreyt says. Of course, the fats from most plants and fish are
-                                                        heart-healthy, so that benefit alone is good reason to switch
-                                                        from filet mignon and butter to fillet of sole and olive
-                                                        oil.</p>
+                                                        <p>Probably not. A handful of studies, mostly on animals, found that
+                                                            the monounsaturated fats in nuts and olives might burn a little
+                                                            faster than saturated fats. "All fats are metabolized
+                                                            differently, but the differences are so slight that switching
+                                                            from one fat to another has no practical use for weight loss,"
+                                                            Foreyt says. Of course, the fats from most plants and fish are
+                                                            heart-healthy, so that benefit alone is good reason to switch
+                                                            from filet mignon and butter to fillet of sole and olive
+                                                            oil.</p>
 
-                                                    <h3 class="section-title">8. Are "empty" and "hidden" calories the
-                                                        same thing?</h3>
+                                                        <h3 class="section-title">8. Are "empty" and "hidden" calories the
+                                                            same thing?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/soft_drink_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="Soft drinks are the main source of empty calories"/>
-                                                        <figcaption class="img-caption">Soft drinks are the main source of empty calories that you should avoid.
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/soft_drink_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="Soft drinks are the main source of empty calories"/>
+                                                            <figcaption class="img-caption">Soft drinks are the main source of empty calories that you should avoid.
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>No. Empty calories describes foods that offer little or no
-                                                        nutritional value. For example, for 112 calories, an 8-ounce
-                                                        glass of fresh-squeezed orange juice offers potassium and
-                                                        supplies 100 percent of your daily need for vitamin C, while the
-                                                        same amount of orange soda has 120 calories and is completely
-                                                        devoid of nutrients. The soda delivers empty calories; the OJ
-                                                        does not. In general, the more a food is processed, the lower
-                                                        its number of vitamins, minerals, fiber and cancer-fighting
-                                                        agents known as phytochemicals, and the higher its content of
-                                                        fat, sugar and empty calories.</p>
+                                                        <p>No. Empty calories describes foods that offer little or no
+                                                            nutritional value. For example, for 112 calories, an 8-ounce
+                                                            glass of fresh-squeezed orange juice offers potassium and
+                                                            supplies 100 percent of your daily need for vitamin C, while the
+                                                            same amount of orange soda has 120 calories and is completely
+                                                            devoid of nutrients. The soda delivers empty calories; the OJ
+                                                            does not. In general, the more a food is processed, the lower
+                                                            its number of vitamins, minerals, fiber and cancer-fighting
+                                                            agents known as phytochemicals, and the higher its content of
+                                                            fat, sugar and empty calories.</p>
 
-                                                    <p>In contrast, hidden calories can be found in all types of foods.
-                                                        These are the calories that sneak into your diet quietly, such
-                                                        as from the butter added to vegetables in a restaurant kitchen.
-                                                        "If you eat away from home, you're in for trouble, because you
-                                                        don't know how many hidden calories from fat have been added to
-                                                        your meal," Foreyt warns.</p>
+                                                        <p>In contrast, hidden calories can be found in all types of foods.
+                                                            These are the calories that sneak into your diet quietly, such
+                                                            as from the butter added to vegetables in a restaurant kitchen.
+                                                            "If you eat away from home, you're in for trouble, because you
+                                                            don't know how many hidden calories from fat have been added to
+                                                            your meal," Foreyt warns.</p>
 
-                                                    <p>The easiest way to avoid hidden calories is to ask about
-                                                        ingredients whenever someone else has prepared your meal and to
-                                                        request that food you're served at restaurants be steamed, baked
-                                                        or broiled dry. When purchasing packaged foods, always check the
-                                                        nutrition label. That seemingly harmless bran muffin could
-                                                        harbor several grams of fat, upping the calorie content
-                                                        significantly.</p>
+                                                        <p>The easiest way to avoid hidden calories is to ask about
+                                                            ingredients whenever someone else has prepared your meal and to
+                                                            request that food you're served at restaurants be steamed, baked
+                                                            or broiled dry. When purchasing packaged foods, always check the
+                                                            nutrition label. That seemingly harmless bran muffin could
+                                                            harbor several grams of fat, upping the calorie content
+                                                            significantly.</p>
 
-                                                    <h3 class="section-title">9. Do no-calorie foods aid in weight
-                                                        loss?</h3>
+                                                        <h3 class="section-title">9. Do no-calorie foods aid in weight
+                                                            loss?</h3>
 
-                                                    <p>Theoretically, yes. Switch your daily cola to diet cola and
-                                                        you'll save about 160 calories per 12-ounce can, which should
-                                                        lead to about a 17-pound weight loss over the course of a year.
-                                                        However, scientists have learned that when people consume
-                                                        lowfat, sugar-reduced, low-calorie or calorie-free foods, they
-                                                        typically compensate by eating more of something else later. A
-                                                        Pennsylvania State University study of women found that those
-                                                        who were told they were snacking on reduced-fat yogurt ate more
-                                                        food at their midday meal than did women told the yogurt was
-                                                        full-fat, regardless of the actual fat content of the snack.</p>
+                                                        <p>Theoretically, yes. Switch your daily cola to diet cola and
+                                                            you'll save about 160 calories per 12-ounce can, which should
+                                                            lead to about a 17-pound weight loss over the course of a year.
+                                                            However, scientists have learned that when people consume
+                                                            lowfat, sugar-reduced, low-calorie or calorie-free foods, they
+                                                            typically compensate by eating more of something else later. A
+                                                            Pennsylvania State University study of women found that those
+                                                            who were told they were snacking on reduced-fat yogurt ate more
+                                                            food at their midday meal than did women told the yogurt was
+                                                            full-fat, regardless of the actual fat content of the snack.</p>
 
-                                                    <p>To make no- and low-calorie foods work to your advantage, use
-                                                        them in combination with tried-and-true habits for permanent
-                                                        weight loss, such as reducing portion sizes, getting at least 25
-                                                        grams of fiber a day, eating lots of fruits and vegetables and
-                                                        exercising five times a week.</p>
+                                                        <p>To make no- and low-calorie foods work to your advantage, use
+                                                            them in combination with tried-and-true habits for permanent
+                                                            weight loss, such as reducing portion sizes, getting at least 25
+                                                            grams of fiber a day, eating lots of fruits and vegetables and
+                                                            exercising five times a week.</p>
 
-                                                    <h3 class="section-title">10. Do calories eaten at night act
-                                                        differently from those eaten during the day?</h3>
+                                                        <h3 class="section-title">10. Do calories eaten at night act
+                                                            differently from those eaten during the day?</h3>
 
-                                                    <figure>
-                                                        <img src='../../resources/images/blog/20151105/healthy_breakfast_1000x600.jpg'
-                                                             alt='wowbox know about calories'
-                                                             title="Whole food with minimal processing steps should be at the top of your diet list"/>
-                                                        <figcaption class="img-caption">Nutritious, low-calorie breakfast helps you manage your weight
-                                                        </figcaption>
-                                                    </figure>
+                                                        <figure>
+                                                            <img src='../../resources/images/blog/20151105/healthy_breakfast_1000x600.jpg'
+                                                                 alt='wowbox know about calories'
+                                                                 title="Whole food with minimal processing steps should be at the top of your diet list"/>
+                                                            <figcaption class="img-caption">Nutritious, low-calorie breakfast helps you manage your weight
+                                                            </figcaption>
+                                                        </figure>
 
-                                                    <p>Not really. "Eat a huge dinner or snack uncontrollably in the
-                                                        evening and there might be a slight fat-storing effect compared
-                                                        with eating a big breakfast followed by a physically active
-                                                        day," Foreyt says. "But the effect is so insignificant that it
-                                                        won't have any noticeable influence on your weight." However,
-                                                        for most of us, dinner typically is the biggest meal of the day,
-                                                        supplying almost half of a person's daily caloric intake, and
-                                                        that's not even counting a late-night snack of ice cream or
-                                                        chips. Bigger portions and excess calories at any time of the
-                                                        day will pack on the pounds. Significant research shows that
-                                                        eating a nutritious, low-calorie breakfast -- for example, a
-                                                        bowl of whole-grain cereal topped with fruit and nonfat milk --
-                                                        makes it easier to manage your weight. That's not because of any
-                                                        difference in how the calories are burned, but because you're
-                                                        less likely to overeat later in the day if you start off with a
-                                                        healthful meal.</p>
+                                                        <p>Not really. "Eat a huge dinner or snack uncontrollably in the
+                                                            evening and there might be a slight fat-storing effect compared
+                                                            with eating a big breakfast followed by a physically active
+                                                            day," Foreyt says. "But the effect is so insignificant that it
+                                                            won't have any noticeable influence on your weight." However,
+                                                            for most of us, dinner typically is the biggest meal of the day,
+                                                            supplying almost half of a person's daily caloric intake, and
+                                                            that's not even counting a late-night snack of ice cream or
+                                                            chips. Bigger portions and excess calories at any time of the
+                                                            day will pack on the pounds. Significant research shows that
+                                                            eating a nutritious, low-calorie breakfast -- for example, a
+                                                            bowl of whole-grain cereal topped with fruit and nonfat milk --
+                                                            makes it easier to manage your weight. That's not because of any
+                                                            difference in how the calories are burned, but because you're
+                                                            less likely to overeat later in the day if you start off with a
+                                                            healthful meal.</p>
 
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="vc_row wpb_row vc_row-fluid hidden">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container">
-                                        <div class="wpb_wrapper">
+                                    <div class="vc_row wpb_row vc_row-fluid hidden">
+                                        <div class="vc_col-sm-12 wpb_column vc_column_container">
+                                            <div class="wpb_wrapper">
 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="berg-tags"></div>
-                            </article>
-                        </div>
+                                    <div class="berg-tags"></div>
+                                </article>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <div id="footer-spacer" style="height: 395px;"></div>
     <footer id="footer" class="text-center">
         <a href="../menu.html#" class="to-the-top">
@@ -596,9 +563,6 @@
 </div>
 <div class="berg-overlay"></div>
 
-<link rel='stylesheet' id='vc_google_fonts_open_sans_condensed300300italic700-css'
-      href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%2C300italic%2C700&subset=latin%2Clatin-ext&ver=4.0.1'
-      type='text/css' media='all'/>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -609,44 +573,20 @@
     ga('send', 'pageview');
 
 </script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/contact-form-7/includes/js/jquery.form.min-ver=3.51.0-2014.06.20.js'></script>
-<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/scripts-ver=3.9.3.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min-ver=2.2.8.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min-ver=2.60.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min-ver=2.2.8.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min-ver=1.3.1.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min-ver=2.2.8.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/navigation-ver=20120206.js'></script>
-<script type='text/javascript' src='../../wp-content/themes/berg-wp/js/skip-link-focus-fix-ver=20130115.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/browser-ver=1.0.js'></script>
-<script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.ba-throttle-debounce.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.smooth-scroll-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/matchmedia-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/enquire.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.velocity.min-ver=1.0.js'></script>
-<script type='text/javascript'
-        src='../../wp-content/plugins/js_composer/assets/lib/jquery-waypoints/waypoints.min-ver=4.3.2.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/owl.carousel-ver=1.0.js'></script>
-<script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.mb.YTPlayer-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.parallaxify-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.imagesloaded-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.unveil.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.superslides.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.fullPage.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/jquery.mixitup-ver=1.0.js'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var translation = {"no_more_posts": "No more posts"};
-    /* ]]> */
-</script>
 <script type='text/javascript' src='../../wp-content/themes/berg-wp/js/main-ver=1.0.js'></script>
-<script type='text/javascript' src='../../wp-includes/js/comment-reply.min-ver=4.0.1.js'></script>
 <script type='text/javascript' src='../../wp-content/plugins/js_composer/assets/js/js_composer_front-ver=4.3.2.js'></script>
 </body>
 </html>

@@ -8050,13 +8050,13 @@ body.nav-bottom #main-navbar {
 }
 
 .mobile-nav .menu-header {
-    height: 80px;
+    height: 50px;
     margin: 0;
     padding: 0
 }
 
 .mobile-nav .menu-header .reorder {
-    line-height: 80px
+    line-height: 50px
 }
 
 .mobile-nav .menu-header .reorder a {
@@ -8064,7 +8064,7 @@ body.nav-bottom #main-navbar {
     font-size: 26px;
     color: #333;
     width: 60px;
-    margin-right: -15px;
+    /*margin-right: -15px;*/
     text-align: center
 }
 
@@ -8081,7 +8081,7 @@ body.nav-bottom #main-navbar {
     overflow: hidden;
     z-index: 100;
     text-align: left;
-    background: #111
+    background: #95CA57
 }
 
 .mobile-nav .flyout-container .menu {
@@ -8095,7 +8095,7 @@ body.nav-bottom #main-navbar {
 }
 
 .mobile-nav .flyout-container .subnav-wrapper .open-children {
-    border: 1px solid #333
+    border: 1px solid #95CA57
 }
 
 .mobile-nav .flyout-container .open-children {
@@ -8103,7 +8103,7 @@ body.nav-bottom #main-navbar {
     right: 15px;
     top: 22px;
     font-size: 20px;
-    color: #333;
+    color: #95CA57;
     width: 30px;
     height: 30px;
     margin-top: -15px;
@@ -8141,10 +8141,9 @@ body.nav-bottom #main-navbar {
     color: #fff;
     font-weight: 400;
     position: relative;
-    text-transform: uppercase;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 150px;
     display: block;
-    border-bottom: 1px solid #2b2b2b
+    border-bottom: 1px solid #FFF
 }
 
 .mobile-nav .subnav-wrapper li {

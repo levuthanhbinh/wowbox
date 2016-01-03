@@ -6,12 +6,6 @@
     padding-right: 10px;
 }
 
-/*#web-content {
-    position: relative;
-    top: 50px;
-    min-width: 980px;
-}*/
-
 .section {
     overflow: hidden;
     background-repeat: no-repeat;
@@ -311,18 +305,14 @@
     background-color: #fafafa;
 }
 
-.masonry-wrapper {
-    width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-    position: relative;
-    z-index: 1;
-    height: 100%;
+.out-wrapper {
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 5px 0 10px;
 }
 
 .masonry-wrapper {
-    width: 980px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -368,7 +358,6 @@
 
 .blog-item-credit {
     padding: 10px;
-    text-align: left;
 }
 
 .blog-item-date, .blog-item-author {
@@ -393,7 +382,15 @@
     padding: 10px 10px 15px 10px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 440px) {
+    .blog-masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 720px) {
     .blog-masonry {
         -moz-column-count: 3;
         -webkit-column-count: 3;
@@ -401,7 +398,7 @@
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .blog-masonry {
         -moz-column-count: 4;
         -webkit-column-count: 4;
@@ -409,25 +406,9 @@
     }
 }
 
-/*@media only screen and (min-width: 900px) {
-    .blog-masonry {
-        -moz-column-count: 4;
-        -webkit-column-count: 4;
-        column-count: 4;
-    }
-}
-
-@media only screen and (min-width: 1100px) {
-    .blog-masonry {
-        -moz-column-count: 5;
-        -webkit-column-count: 5;
-        column-count: 5;
-    }
-}*/
-
-@media only screen and (min-width: 1280px) {
-    .wrapper {
-        width: 1260px;
+@media only screen and (max-width: 768px){
+    .masonry-wrapper {
+        width: 90%;
     }
 }
 
@@ -439,6 +420,10 @@
     position: relative;
     z-index: 1;
     height: 100%;
+}
+
+#section-location-map {
+    pointer-events: none;
 }
 
 #contact-table {
@@ -464,7 +449,7 @@
     font-weight: 400;
     letter-spacing: normal;
     background-color: #fafafa;
-    min-width: 1024px;
+    width: 100%;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -472,11 +457,68 @@
 
 .section-footer {
     margin: 0 auto;
-    max-width: 980px;
     color: #999;
     padding: 20px 22px 24px 22px;
 }
 
 .footer-legal {
     text-align: center;
+}
+
+/*********** MOBILE *************/
+@media (max-width: 768px) {
+    #section-product-salad {
+        background-size: 800px 500px;
+        background-image: url("../resources/images/index/salad_800x500.png");
+    }
+
+    #section-product-cyo {
+        background-size: 800px 500px;
+        background-image: url("../resources/images/index/salad_cyo_800x500.png");
+    }
+
+    #section-product-green-smoothie {
+        background-size: 800px 500px;
+        background-image: url("../resources/images/index/green_smoothie_800x500.png");
+    }
+
+    #section-product-juice {
+        background-size: 800px 500px;
+        background-image: url("../resources/images/index/juice_800x500.png");
+    }
+
+    #section-customer-feedback {
+        background-size: 800px 500px;
+        background-image: url("../resources/images/index/review_800x500.png");
+        height: 500px;
+    }
+
+    #section-location {
+        width: 100%;
+    }
+
+    #section-product-salad-content, #section-product-cyo-content,
+    #section-product-green-smoothie-content, #section-product-juice-content,
+    #section-customer-feedback-content, #section-customer-feedback-content {
+        width: 100%;
+    }
+
+    #section-product-salad-copy, #section-product-cyo-copy,
+    #section-product-green-smoothie-copy, #section-product-juice-copy {
+        width: 98%;
+        float: none;
+        text-align: center;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section p {
+        margin-bottom: 10px;
+    }
+
+    #section-customer-feedback-copy {
+        margin-top: 60px;
+    }
+
 }
