@@ -271,4 +271,12 @@ blockquote {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .section-description {
+        font-size: 18px;
+    }
 }

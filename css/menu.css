@@ -23,3 +23,9 @@
     text-align: center;
     margin: 100px auto 0;
 }
+
+@media (max-width: 768px) {
+    #menu-intro-content-copy {
+        width: 96%;
+    }
+}

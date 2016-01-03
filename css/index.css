@@ -428,7 +428,7 @@
 
 #contact-table {
     border-collapse: collapse;
-    width: 500px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -467,6 +467,27 @@
 
 /*********** MOBILE *************/
 @media (max-width: 768px) {
+
+    .home-section-header {
+        font-size: 30px;
+    }
+
+    .home-section-description {
+        font-size: 18px;
+    }
+
+    .home-section-content-header {
+        font-size: 20px;
+    }
+
+    .home-section-content-copy {
+        font-size: 14px;
+    }
+
+    .content-more {
+        font-size: 14px;
+    }
+
     #section-product-salad {
         background-size: 800px 500px;
         background-image: url("../resources/images/index/salad_800x500.png");
@@ -508,7 +529,7 @@
         width: 98%;
         float: none;
         text-align: center;
-        margin-top: 300px;
+        margin-top: 320px;
         margin-left: auto;
         margin-right: auto;
     }

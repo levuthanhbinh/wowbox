@@ -99,6 +99,10 @@
 }
 
 @media only screen and (max-width: 768px){
+    #menu-intro-content-copy {
+        width: 96%;
+    }
+
     .masonry-wrapper {
         width: 96%;
     }
