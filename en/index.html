@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
     <title>Home | WOWBOX | Fresh Salad for Your Healthy Life</title>
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-    <link rel='stylesheet' href='../wp-content/plugins/revslider/rs-plugin/css/settings-rev=4.5.95&ver=4.0.1.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='../wp-content/plugins/revslider/public/assets/css/settings-ver=5.1.3.css' type='text/css' media='all'/>
     <link rel='stylesheet' href='../wp-content/themes/berg-wp/styles/css/custom-ver=4.0.1.css' type='text/css' media='all'/>
     <link rel='stylesheet' href='../css/wowbox_customize.css' type='text/css' media='all'/>
     <link rel='stylesheet' href='../css/index.css' type='text/css' media='all'/>
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {  }
+    </style>
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js?ver=2.1.1'></script>
-    <script type='text/javascript' src='../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min-rev=4.5.95&ver=4.0.1.js'></script>
-    <script type='text/javascript' src='../wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min-rev=4.5.95&ver=4.0.1.js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min-ver=5.1.3.js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min-ver=5.1.3.js'></script>
+    <script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>
 </head>
 <body class="page page-template show-nav">
 
@@ -124,63 +132,615 @@
     <div id="web-content">
         <!-- IMAGE SLIDER -->
         <div class="section home-slider">
-            <div class="tp-banner-container rev_slider_wrapper">
-                <div id="slider-1" class="tp-banner" >
-                    <ul>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-                            <img src="../resources/images/index/slider/slider_1920x1280_01_set_eng.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-                                 data-x="85"
-                                 data-y="224"
-                                 data-speed="500"
-                                 data-start="1200"
-                                 data-easing="Power4.easeOut">
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-                            <img src="../resources/images/index/slider/slider_1920x1280_01_salad.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-                                 data-x="85"
-                                 data-y="224"
-                                 data-speed="500"
-                                 data-start="1200"
-                                 data-easing="Power4.easeOut">
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-                            <img src="../resources/images/index/slider/slider_1920x1280_02_green_smoothie_eng.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-                                 data-x="85"
-                                 data-y="224"
-                                 data-speed="500"
-                                 data-start="1200"
-                                 data-easing="Power4.easeOut">
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-                            <img src="../resources/images/index/slider/slider_1920x1280_03_premium_eng.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-                                 data-x="85"
-                                 data-y="224"
-                                 data-speed="500"
-                                 data-start="1200"
-                                 data-easing="Power4.easeOut">
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-                            <img src="../resources/images/index/slider/salad_eating_1920x1280_eng.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-                                 data-x="85"
-                                 data-y="224"
-                                 data-speed="500"
-                                 data-start="1200"
-                                 data-easing="Power4.easeOut">
-                            </div>
-                        </li>
+            <link href="http://fonts.googleapis.com/css?family=Raleway:800,400" rel="stylesheet"
+                  property="stylesheet" type="text/css" media="all"/>
+            <div id="home_slider_wrapper" class="rev_slider_wrapper fullscreen-container"
+                 style="background-color:#848484;padding:0px;">
+                <!-- START REVOLUTION SLIDER 5.1.3 fullscreen mode -->
+                <div id="home_slider" class="rev_slider fullscreenbanner" style="display:none;"
+                     data-version="5.1.3">
+                    <ul>    <!-- SLIDE  -->
+                        <li data-index="rs-268" data-transition="fadefromright" data-slotamount="default"
+                            data-easein="default" data-easeout="default" data-masterspeed="default"
+                            data-thumb="http://localhost:8888/wordpress/wp-content/uploads/2016/01/new_1400x600-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../resources/images/index/slider/green_diet_2000x1400.jpg" alt="" width="1400"
+                                 height="600" data-bgposition="center center" data-kenburns="on"
+                                 data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130"
+                                 data-scaleend="100" data-rotatestart="0" data-rotateend="0"
+                                 data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off"
+                                 class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
 
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-268-layer-5"
+                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+                                 data-width="full-proportional"
+                                 data-height="full-proportional"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3000"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+
+
+                                 style="z-index: 5;"><img src="../resources/images/index/slider/background.png"
+                                                          alt="" width="1400" height="600"
+                                                          data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-no-retina>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-268-layer-3"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['140','140','210','210']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+
+
+                                 style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 800; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                GREEN DIET <br/>IS SO COOL
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-268-layer-4"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['40','40','30','30']"
+                                 data-fontsize="['25','25','40','40']"
+                                 data-lineheight="['30','30','50','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+
+
+                                 style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                Latest worldwide diet trend.<br/>
+                                Healthy. Safe. And so delicious.<br/>
+                                Let's transform your body with us.
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-270" data-transition="fadefromright" data-slotamount="default"
+                            data-easein="default" data-easeout="default" data-masterspeed="default"
+                            data-thumb="http://localhost:8888/wordpress/wp-content/uploads/2016/01/new2_1400x600-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="Standard wowbox slide"
+                            data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../resources/images/index/slider/fresh_salad_2000x1400.jpg" alt="" width="1400"
+                                 height="600" data-bgposition="center center" data-kenburns="on"
+                                 data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                 data-scaleend="130" data-rotatestart="0" data-rotateend="0"
+                                 data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off"
+                                 class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-270-layer-5"
+                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+                                 data-width="full-proportional"
+                                 data-height="full-proportional"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3000"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+                                 style="z-index: 5;"><img src="../resources/images/index/slider/background.png"
+                                                          alt="" width="1400" height="600"
+                                                          data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-no-retina>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-270-layer-3"
+                                 data-x="['left','left','center','center']" data-hoffset="['38','38','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['140','140','210','210']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 800; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                FRESH SALAD
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-270-layer-4"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['40','40','30','30']"
+                                 data-fontsize="['25','25','40','40']"
+                                 data-lineheight="['30','30','50','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+
+
+                                 style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                Fresh ingredients.<br/>
+                                Rich in nutrients.<br/>
+                                Superb for diet and weight loss.
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-272" data-transition="fadefromright" data-slotamount="default"
+                            data-easein="default" data-easeout="default" data-masterspeed="default"
+                            data-thumb="http://localhost:8888/wordpress/wp-content/uploads/2016/01/slider_1400x600_green_smoothie_ver2-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="Standard wowbox slide"
+                            data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../resources/images/index/slider/green_smoothie_2000x1400.jpg"
+                                 alt="" width="1400" height="600" data-bgposition="center center"
+                                 data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone"
+                                 data-scalestart="130" data-scaleend="100" data-rotatestart="0"
+                                 data-rotateend="0" data-offsetstart="-40 0" data-offsetend="40 40"
+                                 data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-272-layer-5"
+                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+                                 data-width="full-proportional"
+                                 data-height="full-proportional"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3000"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+                                 style="z-index: 5;"><img src="../resources/images/index/slider/background.png"
+                                                          alt="" width="1400" height="600"
+                                                          data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-no-retina>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-272-layer-3"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['140','140','210','210']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 800; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                GREEN SMOOTHIE
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-272-layer-4"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['40','40','30','30']"
+                                 data-fontsize="['25','25','40','40']"
+                                 data-lineheight="['30','30','50','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                Super-green blend.<br/>
+                                A single glass covers <br/>
+                                your daily need of Vitamins A, C, and K.
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-273" data-transition="fadefromright" data-slotamount="default"
+                            data-easein="default" data-easeout="default" data-masterspeed="default"
+                            data-thumb="http://localhost:8888/wordpress/wp-content/uploads/2016/01/slider_1400x600_premium_ver2-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="Standard wowbox slide"
+                            data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../resources/images/index/slider/premium_2000x1400.jpg" alt=""
+                                 width="1400" height="600" data-bgposition="center center" data-kenburns="on"
+                                 data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100"
+                                 data-scaleend="130" data-rotatestart="0" data-rotateend="0"
+                                 data-offsetstart="0 500" data-offsetend="0 0" data-bgparallax="off"
+                                 class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-273-layer-5"
+                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+                                 data-width="full-proportional"
+                                 data-height="full-proportional"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3000"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+                                 style="z-index: 5;"><img src="../resources/images/index/slider/background.png"
+                                                          alt="" width="1400" height="600"
+                                                          data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-no-retina>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-273-layer-3"
+                                 data-x="['left','left','center','center']" data-hoffset="['38','38','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['140','140','210','210']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 800; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                PREMIUM SALAD
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-273-layer-4"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['40','40','30','30']"
+                                 data-fontsize="['25','25','40','40']"
+                                 data-lineheight="['30','30','50','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                A special collection of wonderful salads<br/>
+                                with our very best<br/>
+                                and most nutritious ingredients.
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-274" data-transition="fadefromright" data-slotamount="default"
+                            data-easein="default" data-easeout="default" data-masterspeed="default"
+                            data-thumb="http://localhost:8888/wordpress/wp-content/uploads/2016/01/salad_eating_1400x600-100x50.jpg"
+                            data-rotate="0" data-saveperformance="off" data-title="Standard wowbox slide"
+                            data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="../resources/images/index/slider/eating_salad_2000x1333.jpg" alt=""
+                                 width="1400" height="600" data-bgposition="center center" data-kenburns="on"
+                                 data-duration="10000" data-ease="Linear.easeNone" data-scalestart="130"
+                                 data-scaleend="100" data-rotatestart="0" data-rotateend="0"
+                                 data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off"
+                                 class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-274-layer-5"
+                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+                                 data-width="full-proportional"
+                                 data-height="full-proportional"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3000"
+                                 data-basealign="slide"
+                                 data-responsive_offset="off"
+                                 style="z-index: 5;"><img src="../resources/images/index/slider/background.png"
+                                                          alt="" width="1400" height="600"
+                                                          data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']"
+                                                          data-no-retina>
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-274-layer-3"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','0','0']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['90','90','210','210']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+
+
+                                 style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 70px; font-weight: 800; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                EATING SALAD <br/>SO EASY AND FUN
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption   tp-resizeme"
+                                 id="slide-274-layer-4"
+                                 data-x="['left','left','center','center']" data-hoffset="['40','40','4','4']"
+                                 data-y="['bottom','bottom','bottom','bottom']"
+                                 data-voffset="['40','40','117','117']"
+                                 data-fontsize="['25','25','40','40']"
+                                 data-lineheight="['30','30','50','50']"
+                                 data-width="none"
+                                 data-height="none"
+                                 data-whitespace="nowrap"
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power2.easeInOut;"
+                                 data-transform_out="s:300;s:300;"
+                                 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+                                 data-start="3500"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-responsive_offset="on"
+                                 style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 30px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                Everyone can enjoy these healthy bowls.
+                            </div>
+                        </li>
                     </ul>
+                    <div class="tp-static-layers">
+                    </div>
+                    <div class="tp-bannertimer"
+                         style="height: 5px; background-color: rgba(0, 0, 0, 0.15);"></div>
                 </div>
+                <script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+                var htmlDivCss = "";
+                if (htmlDiv) {
+                    htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                } else {
+                    var htmlDiv = document.createElement("div");
+                    htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+                    document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+                }
+                </script>
+                <script type="text/javascript">
+                    /******************************************
+                     -    PREPARE PLACEHOLDER FOR SLIDER    -
+                     ******************************************/
+
+                    var setREVStartSize = function () {
+                        try {
+                            var e = new Object, i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                            e.c = jQuery('#home_slider');
+                            e.responsiveLevels = [1240, 1240, 778, 778];
+                            e.gridwidth = [1400, 1024, 778, 480];
+                            e.gridheight = [800, 768, 960, 720];
+
+                            e.sliderLayout = "fullscreen";
+                            e.fullScreenAutoWidth = 'off';
+                            e.fullScreenAlignForce = 'off';
+                            e.fullScreenOffsetContainer = '';
+                            e.fullScreenOffset = '';
+                            if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) {
+                                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                                var u = (e.c.width(), jQuery(window).height());
+                                if (void 0 != e.fullScreenOffsetContainer) {
+                                    var c = e.fullScreenOffsetContainer.split(",");
+                                    if (c) jQuery.each(c, function (e, i) {
+                                        u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                                    }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                                }
+                                f = u
+                            } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                            e.c.closest(".rev_slider_wrapper").css({height: f})
+
+                        } catch (d) {
+                            console.log("Failure at Presize of Slider:" + d)
+                        }
+                    };
+
+
+                    setREVStartSize();
+                    function revslider_showDoubleJqueryError(sliderID) {
+                        var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+                        errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+                        errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+                        errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+                        errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+                        jQuery(sliderID).show().html(errorMessage);
+                    }
+                    var tpj = jQuery;
+
+                    var revapi71;
+                    tpj(document).ready(function () {
+                        if (tpj("#home_slider").revolution == undefined) {
+                            revslider_showDoubleJqueryError("#home_slider");
+                        } else {
+                            revapi71 = tpj("#home_slider").show().revolution({
+                                sliderType: "standard",
+                                jsFileLocation: "//localhost:8888/wordpress/wp-content/plugins/revslider/public/assets/js/",
+                                sliderLayout: "fullscreen",
+                                dottedOverlay: "none",
+                                delay: 9000,
+                                navigation: {
+                                    keyboardNavigation: "off",
+                                    keyboard_direction: "horizontal",
+                                    mouseScrollNavigation: "off",
+                                    onHoverStop: "off",
+                                    touch: {
+                                        touchenabled: "on",
+                                        swipe_threshold: 75,
+                                        swipe_min_touches: 50,
+                                        swipe_direction: "horizontal",
+                                        drag_block_vertical: false
+                                    }
+                                    ,
+                                    bullets: {
+                                        enable: true,
+                                        hide_onmobile: false,
+                                        hide_under: 0,
+                                        style: "hermes",
+                                        hide_onleave: false,
+                                        direction: "horizontal",
+                                        h_align: "right",
+                                        v_align: "bottom",
+                                        h_offset: 30,
+                                        v_offset: 30,
+                                        space: 5,
+                                        tmp: ''
+                                    }
+                                },
+                                viewPort: {
+                                    enable: true,
+                                    outof: "pause",
+                                    visible_area: "90%"
+                                },
+                                responsiveLevels: [1240, 1240, 778, 778],
+                                visibilityLevels: [1240, 1240, 778, 778],
+                                gridwidth: [1400, 1024, 778, 480],
+                                gridheight: [800, 768, 960, 720],
+                                lazyType: "none",
+                                parallax: {
+                                    type: "mouse",
+                                    origo: "slidercenter",
+                                    speed: 2000,
+                                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 47, 48, 49, 50, 51, 55],
+                                    type: "mouse"
+                                },
+                                shadow: 0,
+                                spinner: "spinner3",
+                                stopLoop: "off",
+                                stopAfterLoops: -1,
+                                stopAtSlide: -1,
+                                shuffle: "off",
+                                autoHeight: "on",
+                                fullScreenAutoWidth: "off",
+                                fullScreenAlignForce: "off",
+                                fullScreenOffsetContainer: "",
+                                fullScreenOffset: "",
+                                hideThumbsOnMobile: "off",
+                                hideSliderAtLimit: 0,
+                                hideCaptionAtLimit: 0,
+                                hideAllCaptionAtLilmit: 0,
+                                debugMode: false,
+                                fallbacks: {
+                                    simplifyAll: "off",
+                                    nextSlideOnWindowFocus: "off",
+                                    disableFocusListener: false
+                                }
+                            });
+                        }
+                    });
+                    /*ready*/
+                </script>
+                <script>
+                    var htmlDivCss = '	#home_slider_wrapper .tp-loader.spinner3 div { background-color: #FFFFFF !important; } ';
+                    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                    if (htmlDiv) {
+                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                    }
+                    else {
+                        var htmlDiv = document.createElement('div');
+                        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                    }
+                </script>
+                <script>
+                    var htmlDivCss = unescape(".hermes.tp-bullets%20%7B%0A%7D%0A%0A.hermes%20.tp-bullet%20%7B%0A%20%20%20%20overflow%3Ahidden%3B%0A%20%20%20%20border-radius%3A50%25%3B%0A%20%20%20%20width%3A16px%3B%0A%20%20%20%20height%3A16px%3B%0A%20%20%20%20background-color%3A%20rgba%280%2C%200%2C%200%2C%200%29%3B%0A%20%20%20%20box-shadow%3A%20inset%200%200%200%202px%20%23FFF%3B%0A%20%20%20%20-webkit-transition%3A%20background%200.3s%20ease%3B%0A%20%20%20%20transition%3A%20background%200.3s%20ease%3B%0A%20%20%20%20position%3Aabsolute%3B%0A%7D%0A%0A.hermes%20.tp-bullet%3Ahover%20%7B%0A%09%20%20background-color%3A%20rgba%280%2C%200%2C%200%2C%200.2%29%3B%0A%7D%0A.hermes%20.tp-bullet%3Aafter%20%7B%0A%20%20content%3A%20%27%20%27%3B%0A%20%20position%3A%20absolute%3B%0A%20%20bottom%3A%200%3B%0A%20%20height%3A%200%3B%0A%20%20left%3A%200%3B%0A%20%20width%3A%20100%25%3B%0A%20%20background-color%3A%20%23FFF%3B%0A%20%20box-shadow%3A%200%200%201px%20%23FFF%3B%0A%20%20-webkit-transition%3A%20height%200.3s%20ease%3B%0A%20%20transition%3A%20height%200.3s%20ease%3B%0A%7D%0A.hermes%20.tp-bullet.selected%3Aafter%20%7B%0A%20%20height%3A100%25%3B%0A%7D%0A%0A");
+                    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                    if (htmlDiv) {
+                        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                    }
+                    else {
+                        var htmlDiv = document.createElement('div');
+                        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                    }
+                </script>
             </div>
+            <!-- END REVOLUTION SLIDER -->
         </div>
 
         <!-- WOWBOX PRODUCT -->
@@ -360,33 +920,33 @@
             Drop by for a healthy combo could have never been easier.</h3>
             <section id="section-location">
                 <div id="section-location-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3919.524733154316!2d106.7035854!3d10.771064299999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f41177b89eb%3A0x2cc37d5234d50866!2zNzAgSMOgbSBOZ2hpLCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1426088823258" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3919.524733154316!2d106.7035854!3d10.771064299999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f41177b89eb%3A0x2cc37d5234d50866!2zNzAgSMOgbSBOZ2hpLCBC4bq_biBOZ2jDqSwgUXXhuq1uIDEsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1426088823258" height="400" frameborder="0" style="border:0"></iframe>
                 </div>
                 <div id="section-location-contact">
                     <table id="contact-table">
                         <tbody>
                             <tr class="border-bottom">
-                                <td><img src="../resources/images/icons/hours_128x128.png" width="48" height="48"></td>
+                                <td><img class="contact-icon" src="../resources/images/icons/hours_128x128.png"></td>
                                 <td>Opening</td><td>Monday - Saturday<br/>09:00 - 20:30</td>
                             </tr>
                             <tr class="border-bottom">
-                                <td><img src="../resources/images/icons/location_128x128.png" width="48" height="48"></td>
+                                <td><img class="contact-icon" src="../resources/images/icons/location_128x128.png"></td>
                                 <td>Address</td><td>70 Ham Nghi Str, Ben Nghe Ward<br/>District 1, HCMC</td>
                             </tr>
                             <tr class="border-bottom">
-                                <td><img src="../resources/images/icons/hotline_128x128.png" width="48" height="48"></td>
+                                <td><img class="contact-icon" src="../resources/images/icons/hotline_128x128.png"></td>
                                 <td>Hotline</td><td>Store: <a href="tel:0866859055">08.6685.9055</a><br/>English: <a href="tel:0917397577">0917.397.577</a></td>
                             </tr>
                             <tr class="border-bottom">
-                                <td><img src="../resources/images/icons/email_128x128.png" width="48" height="48"></td>
+                                <td><img class="contact-icon" src="../resources/images/icons/email_128x128.png"></td>
                                 <td>Email</td><td><a href="mailto:biz.wowbox@gmail.com">biz.wowbox@gmail.com</a></td>
                             </tr>
                             <tr>
-                                <td><img src="../resources/images/icons/social_128x128.png" width="48" height="48"></td>
+                                <td><img class="contact-icon" src="../resources/images/icons/social_128x128.png"></td>
                                 <td>Social</td>
-                                <td><a href="https://www.facebook.com/WowBoxSalad" target="_blank"><img src="../resources/images/icons/facebook.png" width="48" height="48"></a>
-                                <a href="http://lozi.vn/b/wowbox-salad-ham-nghi-70-ham-nghi-quan-1-tp-hcm-1443557082" target="_blank"><img src="../resources/images/icons/lozi.png" width="48" height="48"></a>
-                                <a href="http://www.foody.vn/ho-chi-minh/wowbox-salad-ham-nghi" target="_blank"><img src="../resources/images/icons/foody.jpg" width="48" height="48"></a></td>
+                                <td><a href="https://www.facebook.com/WowBoxSalad" target="_blank"><img class="contact-icon" src="../resources/images/icons/facebook.png"></a>
+                                <a href="http://lozi.vn/b/wowbox-salad-ham-nghi-70-ham-nghi-quan-1-tp-hcm-1443557082" target="_blank"><img  class="contact-icon"src="../resources/images/icons/lozi.png"></a>
+                                <a href="http://www.foody.vn/ho-chi-minh/wowbox-salad-ham-nghi" target="_blank"><img  class="contact-icon" src="../resources/images/icons/foody.jpg"></a></td>
                             </tr>
                             <tr>
                                 <td colspan="3">
@@ -416,21 +976,10 @@
     ga('create', 'UA-60799312-1', 'auto');
     ga('send', 'pageview');
 </script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/navigation-ver=20120206.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/browser-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.smooth-scroll-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/matchmedia-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/enquire.min-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.velocity.min-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/owl.carousel-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.parallaxify-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.imagesloaded-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.unveil.min-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.superslides.min-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.fullPage.min-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/themes/berg-wp/js/jquery.mixitup-ver=1.0.js'></script>
 <script type='text/javascript' src='../wp-content/themes/berg-wp/js/main-ver=1.0.js'></script>
-<script type='text/javascript' src='../wp-content/plugins/js_composer/assets/js/js_composer_front-ver=4.3.2.js'></script>
-<script type='text/javascript' src='../js/index.js'></script>
+<script type='text/javascript' src='../js/index_test.js'></script>
 </body>
 </html>

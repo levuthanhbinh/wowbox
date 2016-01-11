@@ -9,6 +9,18 @@
     height: 600px;
 }
 
+#menu-intro-mobile-img {
+    background-repeat: no-repeat;
+    background-size: 800px 487px;
+    background-image: url("../resources/images/menu/ready_menu_subpage_800x487.png");
+    background-position: top center;
+    background-color: #fafafa;
+    overflow: hidden;
+    margin-bottom: 2px;
+    height: 487px;
+    display: none;
+}
+
 #menu-intro-content {
     width: 100%;
     margin-left: auto;
@@ -25,7 +37,18 @@
 }
 
 @media (max-width: 768px) {
+    #menu-intro {
+        height: auto;
+        background-image: none;
+        margin-bottom: 0;
+    }
+
+    #menu-intro-mobile-img {
+        display: block;
+    }
+
     #menu-intro-content-copy {
         width: 96%;
+        margin-top: 50px;
     }
 }

@@ -8,7 +8,7 @@
 }
 
 #delivery {
-    font-size: small;
+    font-size: 14px;
     border-collapse: collapse;
     border: 2px solid #95CA57;
 }
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-#delivery .district {
+#delivery tbody .web-district {
     color: #ca293e;
     font-size: 30px;
     font-weight: 400;
@@ -33,9 +33,21 @@
     background-color: #ffffff;
 }
 
-#delivery .ward {
+.mobile-district {
+    display: none;
     color: #ca293e;
+    font-size: 13px;
     font-weight: 400;
+    background-color: #ffffff;
+}
+
+.mobile-district td {
+    text-align: center;
+}
+
+#delivery .ward {
+    color: #000;
+    font-weight: 300;
 }
 
 #delivery .last_row {
@@ -44,4 +56,22 @@
 
 #delivery .even_row {
     background-color: #fafafa;
+}
+
+@media (max-width: 600px) {
+    .delivery-table-wrapper {
+        width: 100%;
+    }
+
+    #delivery, #delivery thead {
+        font-size: 12px;
+    }
+
+    .web-district {
+        display: none;
+    }
+
+    .mobile-district {
+        display: block;
+    }
 }
