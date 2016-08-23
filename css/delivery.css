@@ -11,26 +11,28 @@
     font-size: 14px;
     border-collapse: collapse;
     border: 2px solid #95CA57;
+    font-weight: 400;
 }
 
 #delivery thead {
     color: #ffffff;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 800;
     background-color: #95CA57;
     border: 2px solid #95CA57;
 }
 
 #delivery td {
     text-align: center;
+    border: 1px solid #95CA57;
+    border-bottom: 2px solid #95CA57;
+    height: 85px;
 }
 
 #delivery tbody .web-district {
-    color: #ca293e;
-    font-size: 30px;
+    color: #000;
+    font-size: 16px;
     font-weight: 400;
-    border: 2px solid #95CA57;
-    background-color: #ffffff;
 }
 
 .mobile-district {
@@ -65,13 +67,5 @@
 
     #delivery, #delivery thead {
         font-size: 12px;
-    }
-
-    .web-district {
-        display: none;
-    }
-
-    .mobile-district {
-        display: block;
     }
 }
