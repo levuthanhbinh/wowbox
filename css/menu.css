@@ -1,7 +1,7 @@
 #menu-intro {
     background-repeat: no-repeat;
     background-size: 1440px 600px;
-    background-image: url("../resources/images/menu/ready_menu_subpage_1440x600.png");
+    background-image: url("../resources/images/menu/ready_menu_subpage_1440x600.jpg");
     background-position: top center;
     background-color: #fafafa;
     overflow: hidden;
@@ -12,7 +12,7 @@
 #menu-intro-mobile-img {
     background-repeat: no-repeat;
     background-size: 800px 487px;
-    background-image: url("../resources/images/menu/ready_menu_subpage_800x487.png");
+    background-image: url("../resources/images/menu/ready_menu_subpage_800x487.jpg");
     background-position: top center;
     background-color: #fafafa;
     overflow: hidden;

@@ -1,7 +1,7 @@
 #menu-intro {
     background-repeat: no-repeat;
     background-size: 1440px 600px;
-    background-image: url("../resources/images/menu/cyo/cyo_subpage_1440x600.png");
+    background-image: url("../resources/images/menu/cyo/cyo_subpage_1440x600.jpg");
     background-position: top center;
     background-color: #fafafa;
     overflow: hidden;
@@ -12,7 +12,7 @@
 #menu-intro-mobile-img {
     background-repeat: no-repeat;
     background-size: 800px 362px;
-    background-image: url("../resources/images/menu/cyo/cyo_subpage_800x362.png");
+    background-image: url("../resources/images/menu/cyo/cyo_subpage_800x362.jpg");
     background-position: top center;
     background-color: #fafafa;
     overflow: hidden;
@@ -107,7 +107,7 @@
 
 .cyo-item-price .label {
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 768px){
